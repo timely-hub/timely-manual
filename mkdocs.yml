@@ -60,22 +60,13 @@ theme:
     - content.code.copy
     - content.action.edit
     - toc.follow
-  # Light is the default. OS preference is intentionally NOT auto-detected
-  # so the manual matches the Timely service (which is light-themed) out of the box.
-  # Users can still manually toggle to dark via the header icon.
+  # Light only — matches the Timely service. No toggle, no OS-preference detection,
+  # so the look stays consistent across visits / users / system settings.
+  # (Reintroduce the slate palette if a dark mode is ever wanted.)
   palette:
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: 다크 모드로 전환
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: 라이트 모드로 전환
+    scheme: default
+    primary: custom
+    accent: custom
   font:
     text: Pretendard
     code: JetBrains Mono
@@ -111,6 +102,7 @@ plugins:
         - en
 
 extra:
+  generator: false   # hide "Made with Material for MkDocs" footer line
   social:
     - icon: fontawesome/solid/house
       link: https://www.timelygpt.co.kr/main

@@ -53,23 +53,9 @@
   --md-code-font: "JetBrains Mono", "Menlo", "Consolas", monospace;
 }
 
-/* Dark mode tweaks --------------------------------------------------------- */
-[data-md-color-scheme="slate"] {
-  --md-primary-fg-color: var(--timely-primary-500);
-  --md-primary-fg-color--light: var(--timely-primary-300);
-  --md-primary-fg-color--dark: var(--timely-primary-600);
-
-  --md-accent-fg-color: var(--timely-primary-300);
-  --md-accent-fg-color--transparent: rgba(180, 143, 255, 0.15);
-
-  --md-typeset-a-color: var(--timely-primary-300);
-
-  --md-default-fg-color: rgba(255, 255, 255, 0.92);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.7);
-
-  --md-default-bg-color: var(--timely-gray-600);
-  --md-code-bg-color: rgba(255, 255, 255, 0.05);
-}
+/* Note: dark-mode (slate) overrides were intentionally removed —
+ * the manual is light-only to match the Timely service. If a dark mode is
+ * reintroduced, restore the [data-md-color-scheme="slate"] block here. */
 
 /* ---------------------------------------------------------------------------
  * Global typography polish — Pretendard prefers tighter tracking.
