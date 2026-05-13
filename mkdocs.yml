@@ -5,8 +5,37 @@ repo_url: https://github.com/timely-hub/timely-manual
 repo_name: timely-hub/timely-manual
 edit_uri: edit/master/docs/
 
-# 변환 완료 후 nav: 트리는 Phase 3에서 채움.
-# 그 전까지는 mkdocs가 docs/ 구조에서 자동으로 nav를 생성.
+nav:
+  - 홈: index.md
+  - 어드민 가이드:
+      - 시작하기:
+          - 스페이스 설정: admin/getting-started/space-setup.md
+          - 유저 초대·관리: admin/getting-started/invite-users.md
+          - 템플릿 관리: admin/getting-started/templates.md
+          - 크레딧 결제: admin/getting-started/credits.md
+      - 기능 더보기:
+          - 회원가입·로그인: admin/reference/signup-login.md
+          - 유저 관리: admin/reference/user-management.md
+          - 템플릿 관리: admin/reference/template-management.md
+          - 스페이스 관리: admin/reference/space-management.md
+          - 크레딧 결제: admin/reference/credits.md
+          - 통계: admin/reference/stats.md
+  - 유저 가이드:
+      - 시작하기:
+          - 개요: user/getting-started/overview.md
+          - 서비스 활용하기: user/getting-started/services.md
+          - 템플릿: user/getting-started/templates.md
+          - Labs: user/getting-started/labs.md
+          - 내 계정 설정: user/getting-started/my-account.md
+      - 기능 더보기:
+          - 워크스페이스: user/reference/workspaces.md
+          - 다양한 LLM 채팅: user/reference/llm-chat.md
+          - 권한: user/reference/permissions.md
+          - 계정 관리: user/reference/account.md
+          - 템플릿 만들기: user/reference/templates-build.md
+          - 타임리 AI 에이전트: user/reference/ai-agents.md
+  - 참고:
+      - 할루시네이션 줄이기: hallucination.md
 
 theme:
   name: material
