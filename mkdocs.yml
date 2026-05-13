@@ -11,6 +11,8 @@ edit_uri: edit/master/docs/
 theme:
   name: material
   language: ko
+  logo: assets/img/favicon.svg
+  favicon: assets/img/favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,15 +29,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: 다크 모드로 전환
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: 라이트 모드로 전환
@@ -44,6 +46,9 @@ theme:
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github
+
+extra_css:
+  - assets/css/brand.css
 
 markdown_extensions:
   - admonition
