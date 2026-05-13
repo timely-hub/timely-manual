@@ -156,14 +156,14 @@
 
     - [오른쪽 상단 프로필 아이콘] 선택 > [관리자 설정] 선택 > [유저 관리 > 유저] 선택 > 권한 설정 **[설정하기]** 버튼 선택
         
-        ![유저설정.png](assets/images/home/img11.png)
+        ![](assets/images/home/img11.png)
 
         
 ??? question "초대된 유저를 내보내고 싶어요."
 
     - 내보내고 싶은 유저를 선택하신 후 **[내보내기]** 버튼을 선택하여 주세요.
         
-        ![유저내보내기.png](assets/images/home/img12.png)
+        ![](assets/images/home/img12.png)
 
     
 ??? question "유저를 초대하고 싶어요."
@@ -194,11 +194,11 @@
     - 모바일 인터넷 바로가기 생성
         - 안드로이드 방법 - 삼성 인터넷 이용 권장
             
-            ![image.png](assets/images/home/img13.png)
+            ![](assets/images/home/img13.png)
             
         - IOS(아이폰) 방법 - 사파리 이용 권장
             
-            ![image.png](assets/images/home/img14.png)
+            ![](assets/images/home/img14.png)
 
     
 ??? question "hwp 파일도 업로드 할 수 있나요?"

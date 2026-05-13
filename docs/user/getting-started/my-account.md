@@ -9,7 +9,7 @@
     연동 키 관리
 
 
-![image.png](../../assets/images/user-my-account/img01.png)
+![](../../assets/images/user-my-account/img01.png)
 
 메인페이지 왼쪽 하단의 [내 계정] - [설정] 을 클릭해요.
 
@@ -17,7 +17,7 @@
 
 - 프로필 이미지, 이름, 비밀번호를 변경할 수 있어요.
 
-![image.png](../../assets/images/user-my-account/img02.png)
+![](../../assets/images/user-my-account/img02.png)
 
 - 스페이스 내에서 사용할 언어를 설정할 수 있어요.
 ( 스페이스 내 언어를 **English** 로 설정하여도 기존에 만들어진 템플릿 이름은 변경되지 않아요.)
@@ -27,15 +27,15 @@
 
 ## 1-1. 개인 맞춤 설정
 
-![image.png](../../assets/images/user-my-account/img03.png)
+![](../../assets/images/user-my-account/img03.png)
 
 1. AI 답변을 받을 때 내 닉네임과 직업, 추가 정보를 입력할 수 있어요
 2. 입력한 [사용자 맞춤 설정]을 참고하여 AI가 답변을 생성해요.
 3. AI 채팅 응답 방식도 자유자재로 설정할 수 있어요.
 
-![image.png](../../assets/images/user-my-account/img04.png)
+![](../../assets/images/user-my-account/img04.png)
 
-![image.png](../../assets/images/user-my-account/img05.png)
+![](../../assets/images/user-my-account/img05.png)
 
 1. 스페이스 메인화면에 내가 설정한 사용자 설정에 맞춰 최신 뉴스를 제공해줘요.
 2. 메인화면에서 제공하는 스페이스 추천 질문을 ON/OFF 할 수 있어요.
@@ -46,30 +46,30 @@
 
 현재 스페이스에서 사용 가능한 크레딧 현황을 확인할 수 있어요!
 
-![image.png](../../assets/images/user-my-account/img06.png)
+![](../../assets/images/user-my-account/img06.png)
 
 - [스페이스 크레딧] : 현재 이용 중인 스페이스 내에서 내가 부여받은 이달의 크레딧 양
 - [개인 크레딧] : 유저 개인이 결제하여 충전한 크레딧 양
 
-![image.png](../../assets/images/user-my-account/img07.png)
+![](../../assets/images/user-my-account/img07.png)
 
 - 현재 스페이스에서 사용될 크레딧을 유저가 선택할 수 있어요!
 - 스페이스에서 부여받은 크레딧을 모두 소진하면, 개인크레딧을 ON 하여 지속적으로 이용할 수 있어요.
 
 ## 2-1. 개인크레딧 결제
 
-![image.png](../../assets/images/user-my-account/img08.png)
+![](../../assets/images/user-my-account/img08.png)
 
 - [충전 금액 선택] > [결제방법] > [결제하기]
 - ‘1 크레딧 = 2원’ 으로 계산되며, 최종결제금액은 ‘부가세 포함’ 금액이에요.
 - [인터넷 뱅킹], [페이머니] 결제 시, 현금영수증 발급이 가능해요.
 
-![image.png](../../assets/images/user-my-account/img09.png)
+![](../../assets/images/user-my-account/img09.png)
 
 - [결제 내역]에서 결제한 주문내역을 확인할 수 있어요.
 - 크레딧 결제 취소는 결제일로부터 14일 이내에만 가능하며, 구입한 크레딧을 사용하지 않은 경우에 한해 가능합니다.
 
-![image.png](../../assets/images/user-my-account/img10.png)
+![](../../assets/images/user-my-account/img10.png)
 
 1. [고객센터 문의] : 결제 수단이 가상계좌, 인터넷뱅킹, 수동지급일 경우.
 2. [결제취소] : 결제 수단이 카드나 페이머니일 경우.
@@ -80,22 +80,21 @@
 
 - 타임리에서 제공하는 API Key를 연동해 나만의 AI를 만들 수 있어요!
 
-![image.png](../../assets/images/user-my-account/img11.png)
+![](../../assets/images/user-my-account/img11.png)
 
 - 연동 키(API Key)를 복사하여 타임리GPT와 외부서비스를 연동하여 사용할 수 있어요!
 - 새 키를 발급하면 기존 키는 자동으로 비활성화되요.
 - [API 문서 보기] 에서 해당 내용에 대한 가이드를 제공해주고 있어요.
 
-![image.png](../../assets/images/user-my-account/img12.png)
+![](../../assets/images/user-my-account/img12.png)
 
 - 타임리에서 제공하는 API Key 가이드를 확인해 외부 서비스와 연동해 이용할 수 있어요.
 
-![image.png](../../assets/images/user-my-account/img13.png)
+![](../../assets/images/user-my-account/img13.png)
 
 - Open AI 나 LangChain을 직접 사용하시는 유저들을 위해 OpenAI SDK 사용가이드도 제공하고있어요.
 
-!!! note "⏪"
-
+!!! note
     이전으로
 
     [템플릿 더 알아보기](https://www.notion.so/294f49d7e77e8138befcf17912b84fb5?pvs=21)

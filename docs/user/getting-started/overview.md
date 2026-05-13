@@ -37,13 +37,13 @@
 
 ## 2. 회원가입 방법 ✅
 
-![회원가입 1.png](../../assets/images/user-overview/img02.png)
+![](../../assets/images/user-overview/img02.png)
 
 계정은 (1-1) 이메일 초대 받았으면 자동으로, (1-2) 링크 통한 경우는 직접 입력 해야해요!
 
-![회원가입 2.png](../../assets/images/user-overview/img03.png)
+![](../../assets/images/user-overview/img03.png)
 
-![회원가입 3.png](../../assets/images/user-overview/img04.png)
+![](../../assets/images/user-overview/img04.png)
 
 ![가입 완료 후 ‘스페이스로 이동’ 클릭](../../assets/images/user-overview/img05.png)
 
@@ -51,7 +51,7 @@
 
 ## 2-2. SNS 계정 연동 가입
 
-![회원가입 4.png](../../assets/images/user-overview/img06.png)
+![](../../assets/images/user-overview/img06.png)
 
 SNS 계정으로 로그인 한다면, 정보만 따로 입력해주세요
 
@@ -62,21 +62,19 @@ SNS 계정으로 로그인 한다면, 정보만 따로 입력해주세요
 
 ## Q. 권한이 없다고 뜰 때?
 
-![image.png](../../assets/images/user-overview/img07.png)
+![](../../assets/images/user-overview/img07.png)
 
 ⚠️초대 링크가 아닌 [로그인 링크]로 가입⚠️하면, 권한이 없다고 보일 수 있어요!!
 
 당황하지 말고 스페이스 관리자나 1551-3711로 문의주세요 
 
-!!! note "🔗"
-
+!!! note
     타임리 GPT 홈페이지
 
     [홈페이지 이동하기](https://www.timelygpt.co.kr/main)
 
 
-!!! note "⏩"
-
+!!! note
     다음으로
 
     서비스 활용하기

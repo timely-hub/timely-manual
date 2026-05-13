@@ -1,6 +1,6 @@
 # 계정 관리
 
-![image.png](../../assets/images/user-account/img01.png)
+![](../../assets/images/user-account/img01.png)
 
 ## 1. 계정 관리
 
@@ -10,7 +10,7 @@
 
 ③ 계정 삭제(탈퇴)도 가능해요
 
-![Frame 8.png](../../assets/images/user-account/img02.png)
+![](../../assets/images/user-account/img02.png)
 
 !!! warning "카카오톡/구글 (SNS)로그인은 ‘타임리’에서 비밀번호를 바꿀 수 없어요"
 
@@ -19,7 +19,7 @@
 
 ## Q. 권한이 없다고 뜰 때?
 
-![image.png](../../assets/images/user-account/img03.png)
+![](../../assets/images/user-account/img03.png)
 
 ⚠️초대 링크가 아닌 [로그인 링크]로 가입⚠️하면, 권한이 없다고 보일 수 있어요!!
 

@@ -1,6 +1,6 @@
 # 회원가입 및 로그인
 
-![image.png](../../assets/images/admin-signup-login/img01.png)
+![](../../assets/images/admin-signup-login/img01.png)
 
 !!! note "📚 **목차**"
 
@@ -32,13 +32,13 @@
 
 ## 2. 회원가입 방법 ✅
 
-![회원가입 1.png](../../assets/images/admin-signup-login/img03.png)
+![](../../assets/images/admin-signup-login/img03.png)
 
 계정은 (1-1) 이메일 초대 받았으면 자동으로, (1-2) 링크 통한 경우는 직접 입력 해야해요!
 
-![회원가입 2.png](../../assets/images/admin-signup-login/img04.png)
+![](../../assets/images/admin-signup-login/img04.png)
 
-![회원가입 3.png](../../assets/images/admin-signup-login/img05.png)
+![](../../assets/images/admin-signup-login/img05.png)
 
 ![가입 완료 후 ‘스페이스로 이동’ 클릭](../../assets/images/admin-signup-login/img06.png)
 
@@ -46,7 +46,7 @@
 
 ## 2-2. SNS 계정 연동 가입
 
-![회원가입 4.png](../../assets/images/admin-signup-login/img07.png)
+![](../../assets/images/admin-signup-login/img07.png)
 
 SNS 계정으로 로그인 한다면, 정보만 따로 입력해주세요
 
@@ -57,12 +57,11 @@ SNS 계정으로 로그인 한다면, 정보만 따로 입력해주세요
 
 ## Q. 권한이 없다고 뜰 때?
 
-![image.png](../../assets/images/admin-signup-login/img08.png)
+![](../../assets/images/admin-signup-login/img08.png)
 
 [로그인 링크]로 들어올 경우, 생길 수 있어요!
 
 멤버 초대 기능에서 [이메일 초대] 방법을 한 번 더 사용해 주세요!
 
-!!! note "👉"
-
+!!! note
     이메일 초대 방법

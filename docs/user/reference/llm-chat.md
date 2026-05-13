@@ -1,6 +1,6 @@
 # 다양한 LLM 채팅
 
-![관리자 4.png](../../assets/images/user-llm-chat/img01.png)
+![](../../assets/images/user-llm-chat/img01.png)
 
 !!! note "📚 **목차**"
 
@@ -21,7 +21,7 @@
     ***고급 모델***은 AI모델을 상세하게 알고 있는 사용자에게 추천드려요.
 
 
-![새채팅창.png](../../assets/images/user-llm-chat/img02.png)
+![](../../assets/images/user-llm-chat/img02.png)
 
 1. 질문하고 싶은 내용을 바로 입력해요
 
@@ -32,7 +32,7 @@
 
 ## RAG기능(파일 업로드)
 
-![채팅창 플러스.png](../../assets/images/user-llm-chat/img03.png)
+![](../../assets/images/user-llm-chat/img03.png)
 
 - PNG, JPG, WORD, PDF, HWP 등 답변에 참고 할 수 있는 파일을 업로드해 질문이 가능해요.
 - 10MB 이하 파일만 가능해요

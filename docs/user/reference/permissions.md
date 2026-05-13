@@ -1,13 +1,13 @@
 # 권한
 
-![image.png](../../assets/images/user-permissions/img01.png)
+![](../../assets/images/user-permissions/img01.png)
 
 !!! tip "**스페이스 권한**에는 **어드민**과 **유저**가 있어요."
 
     - 유저에서 어드민으로 변경이 가능하여 어드민을 다수로 설정할 수 있어요.
 
 
-![어드민유저.png](../../assets/images/user-permissions/img02.png)
+![](../../assets/images/user-permissions/img02.png)
 
 ## 프롬프트 관리
 

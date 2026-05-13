@@ -13,7 +13,7 @@
 
 ## **■ 메인**
 
-![메인사용법.png](../../assets/images/user-services/img01.png)
+![](../../assets/images/user-services/img01.png)
 
 1. 추천/인기 템플릿을 볼 수 있어요
 2. AI chat을 바로 사용 가능해요
@@ -23,7 +23,7 @@
 
 ## **■ AI 채팅(AI Chat)**
 
-![image.png](../../assets/images/user-services/img02.png)
+![](../../assets/images/user-services/img02.png)
 
 1. 질문하고 싶은 내용을 바로 입력해요
 2. 큰 화면으로 보고 싶거나 기존 채팅 목록을 보려면 클릭해주세요.
@@ -32,7 +32,7 @@
 
 2를 눌렀을때 화면 예시
 
-![image.png](../../assets/images/user-services/img04.png)
+![](../../assets/images/user-services/img04.png)
 
 - [채팅 검색] 을 통해 기존의 채팅내역에서 원하는 내용을 찾아 확인할 수 있어요.
 
@@ -43,15 +43,14 @@
 
 ## **■ AI 채팅(AI Chat)-RAG 기능**
 
-![채팅창 플러스.png](../../assets/images/user-services/img05.png)
+![](../../assets/images/user-services/img05.png)
 
 - PNG, JPG, WORD, PDF, HWP 등 답변에 참고 할 수 있는 파일을 업로드해 질문이 가능해요.
 - OCR(이미지의 텍스트 추출)이 필요한 PDF 등의 경우에는 50MB, 100p 이하의 파일만 업로드 할 수 있어요.
 
 ## **■** 템플릿
 
-!!! note "❓"
-
+!!! note
     ***템플릿*** 이란? 타임리가 제공하는 AI 도구입니다. 주어진 빈 칸이나 목록에 원하는 [프롬프트]를 입력하면 더 편리하게 결과를 얻을 수 있어요!
 
     ✅ AI와 친하지 않다면, ***만들어져있는 템플릿*** 이용해 효율적으로 사용
@@ -59,21 +58,20 @@
     ✅ AI와 친숙한데 특정 프롬프트를 자주 사용한다면, ***직접 템플릿을 만들어*** 시간 단축 가능
 
 
-![템플릿소개.png](../../assets/images/user-services/img06.png)
+![](../../assets/images/user-services/img06.png)
 
 1. 관리자가 설정한 추천 템플릿을 볼 수 있어요
 2. 그룹별 추천 템플릿을 볼 수 있어요
 3. 내가 복제하거나/직접 제작한 템플릿을 볼 수 있어요
 4. 내가 즐겨찾기 해 둔 템플릿을 볼 수 있어요
 
-!!! note "📢"
-
+!!! note
     ***AI 채팅에서 나눈 대화, 내가 사용한/만든 템플릿은 관리자도 볼 수 없어요***
 
 
 ## **■** 스토어
 
-![Group 427319669.png](../../assets/images/user-services/img07.png)
+![](../../assets/images/user-services/img07.png)
 
 1. 원하는 템플릿이 있는 지 검색해보세요
 2. 최신/인기/조회순으로 정렬이 되요
@@ -83,15 +81,13 @@
 
 A. 관리자가 월 요금제 제한량을 변경해 줄 수 있어요. 관리자에게 요청해주세요! 
 
-!!! note "⏪"
-
+!!! note
     이전으로
 
     시작하기
 
 
-!!! note "⏩"
-
+!!! note
     다음으로
 
     템플릿 더 알아보기

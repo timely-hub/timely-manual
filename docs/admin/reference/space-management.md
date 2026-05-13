@@ -1,9 +1,8 @@
 # 스페이스 관리
 
-![image.png](../../assets/images/admin-space-management/img01.png)
+![](../../assets/images/admin-space-management/img01.png)
 
-!!! note "📚"
-
+!!! note
     **목차**
     메인화면
     예시 질문
@@ -14,13 +13,13 @@
 
 # 스**페이스 관리**
 
-![어드민설정.png](../../assets/images/admin-space-management/img02.png)
+![](../../assets/images/admin-space-management/img02.png)
 
 생성된 **스페이스의 이름, 로고, 추천 템플릿** 등을 관리할 수 있어요.
 
 ## 메인화면
 
-![스크린샷 2026-03-03 095423.png](../../assets/images/admin-space-management/img03.png)
+![](../../assets/images/admin-space-management/img03.png)
 
 스페이스 홈페이지 접속 시 처음 접하는 메인 화면을 관리하는 부분이에요.
 
@@ -34,7 +33,7 @@
 
 ## 예시 질문
 
-![스크린샷 2026-03-03 095515.png](../../assets/images/admin-space-management/img04.png)
+![](../../assets/images/admin-space-management/img04.png)
 
 멤버들이 채팅을 쉽게 접할 수 있도록 도움을 주는 예시 질문이에요.
 
@@ -42,7 +41,7 @@
 
 **[생성하기]**
 
-![image.png](../../assets/images/admin-space-management/img05.png)
+![](../../assets/images/admin-space-management/img05.png)
 
 ⓵ 아이콘 선택
 
@@ -54,7 +53,7 @@
 
 **[등록 완료]**
 
-![image.png](../../assets/images/admin-space-management/img06.png)
+![](../../assets/images/admin-space-management/img06.png)
 
 ??? question "메인 페이지 채팅 아래 부분에 노출돼요."
 
@@ -64,7 +63,7 @@
 
 ## 배너
 
-![스크린샷 2026-03-03 095612.png](../../assets/images/admin-space-management/img07.png)
+![](../../assets/images/admin-space-management/img07.png)
 
 스페이스 맞춤형 배너로 등록할 수 있어요
 
@@ -75,13 +74,13 @@
 
 ## SEO
 
-![스크린샷 2026-03-03 095715.png](../../assets/images/admin-space-management/img08.png)
+![](../../assets/images/admin-space-management/img08.png)
 
 ***SEO란?***  검색엔진 최적화의 줄임말로, 검색엔진이 콘텐츠를 이해하도록 돕고, 사용자가 사이트를 찾고, 검색엔진을 통해 사이트를 방문할지 여부를 결정하도록 도와줘요.
 
 ## 오픈그래프
 
-![스크린샷 2026-03-03 095806.png](../../assets/images/admin-space-management/img09.png)
+![](../../assets/images/admin-space-management/img09.png)
 
 ***오픈그래프란?***  웹페이지의 제목, 설명, 이미지 등을 표준 형식으로 설정해 소셜미디어에 공유할 때
 예쁘고 보기 좋게 보여주도록 도와주는 기술이에요.

@@ -4,14 +4,13 @@
 
 전달 받은 [가입링크]로 접속해 주세요.
 
-!!! note "❓"
-
+!!! note
     회원가입 방법
 
 
 ## **2. 스페이스 설정하기**
 
-![어드민설정.png](../../assets/images/admin-space-setup/img01.png)
+![](../../assets/images/admin-space-setup/img01.png)
 
 어드민 로그인 후 [어드민 설정] 클릭
 
@@ -21,7 +20,7 @@
 
 메인 화면 테마 변경이 가능해요.
 
-![image.png](../../assets/images/admin-space-setup/img02.png)
+![](../../assets/images/admin-space-setup/img02.png)
 
 ??? question "**로고 등 이미지, 텍스트를 모두 수정할 수 있어요**"
 
@@ -35,21 +34,21 @@
 
 ## **■ 스페이스 관리-스페이스 테마-배너**
 
-![스크린샷 2026-03-03 094517.png](../../assets/images/admin-space-setup/img03.png)
+![](../../assets/images/admin-space-setup/img03.png)
 
 - 배너 이미지를 변경하거나, 링크도 입력할 수 있어요
 - 배너 간 노출 순서도 조정 가능해요
 
 ## **■ 스페이스 관리-스페이스 설정-채팅 개인정보 보호**
 
-![image.png](../../assets/images/admin-space-setup/img04.png)
+![](../../assets/images/admin-space-setup/img04.png)
 
 - AI 채팅에서 사용자의 이름, 이메일 등 식별 정보를 자동으로 익명 또는 가명처리할 수 있어요!
 - 가명처리 된 개인정보는 **로 표시되어 보여져요.
 
 ## **■ 스페이스 관리-스페이스 설정-스페이스 삭제**
 
-![image.png](../../assets/images/admin-space-setup/img05.png)
+![](../../assets/images/admin-space-setup/img05.png)
 
 - 스페이스를 생성한 마스터는 스페이스를 삭제할 수 있어요.
 - 삭제 후, 3개월 동안 새 스페이스 생성이 제한되요!
@@ -60,20 +59,17 @@
 
 이제 다양한 AI 기능을 사용할 수 있어요. 메인 화면으로 돌아와 필요한 기능을 직접 사용해 보세요.
 
-!!! note "❓"
-
+!!! note
     [스페이스 관리] 더 자세히 보기
 
 
-!!! note "🔗"
-
+!!! note
     타임리 GPT 홈페이지
 
     [홈페이지 이동하기](https://www.timelygpt.co.kr/main)
 
 
-!!! note "⏩"
-
+!!! note
     다음으로
 
     유저 초대/관리하기

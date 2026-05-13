@@ -1,11 +1,10 @@
 # 템플릿 만들기
 
-![Frame 7.png](../../assets/images/user-templates-build/img01.png)
+![](../../assets/images/user-templates-build/img01.png)
 
 # 템플릿 만들기
 
-!!! note "❓"
-
+!!! note
     ***템플릿*** 이란? 타임리가 제공하는 AI 도구입니다. 주어진 빈 칸이나 목록에 원하는 [프롬프트]를 입력하면 더 편리하게 결과를 얻을 수 있어요!
 
     ✅ AI와 친하지 않다면, ***만들어져있는 템플릿*** 이용해 효율적으로 사용
@@ -15,13 +14,13 @@
 
 ## **1. 템플릿 사용하기**
 
-![스토어 빈.png](../../assets/images/user-templates-build/img02.png)
+![](../../assets/images/user-templates-build/img02.png)
 
 타임리에서 이미 제작한 템플릿을 [스토어]에서 만날 수 있어요.
 
 원하는 템플릿이 보이면 클릭!
 
-![image.png](../../assets/images/user-templates-build/img03.png)
+![](../../assets/images/user-templates-build/img03.png)
 
 1. 원하는 템플릿의 각 프롬프트를 입력한 후, 버튼을 누르면 결과가 나와요. (누를 때마다 결과가 달라져요)
 2. 일부 프롬프트나 LLM모델 등 수정을 하고 싶다면 클릭 (👇자세한 방법은 ***2번***에서 만나요👇)
@@ -39,13 +38,11 @@
 
 ## **2. 직접 템플릿 만들기**
 
-![image.png](../../assets/images/user-templates-build/img04.png)
+![](../../assets/images/user-templates-build/img04.png)
 
-!!! note "📢"
-
+!!! note
     ***내가 사용한/만든 템플릿은 나만 볼 수 있어요***
 
 
-!!! note "👉"
-
+!!! note
     템플릿 더 알아보기
