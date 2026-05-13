@@ -32,45 +32,45 @@ hide:
 
 ## 입문 가이드 둘러보기
 
-타임리GPT의 주요 화면과 기능을 한눈에 살펴보세요.
+타임리GPT의 주요 화면과 기능을 한눈에 살펴보세요. 각 항목을 클릭하면 자세한 안내로 이동합니다.
 
 <div class="grid cards" markdown>
 
--   ![](assets/images/home/img01.png)
+-   [![](assets/images/home/img01.png)](user/getting-started/overview.md)
 
-    **회원가입 안내**
+    **[회원가입 안내](user/getting-started/overview.md)**
 
--   ![](assets/images/home/img04.png)
+-   [![](assets/images/home/img04.png)](user/reference/llm-chat.md)
 
-    **AI 채팅 사용하기**
+    **[AI 채팅 사용하기](user/reference/llm-chat.md)**
 
--   ![](assets/images/home/img07.png)
+-   [![](assets/images/home/img07.png)](user/getting-started/templates.md)
 
-    **템플릿 사용하기**
+    **[템플릿 사용하기](user/getting-started/templates.md)**
 
--   ![](assets/images/home/img02.png)
+-   [![](assets/images/home/img02.png)](user/getting-started/labs.md)
 
-    **이미지 생성 (F. 나노바나나)**
+    **[이미지 생성 (F. 나노바나나)](user/getting-started/labs.md)**
 
--   ![](assets/images/home/img05.png)
+-   [![](assets/images/home/img05.png)](user/getting-started/labs.md)
 
-    **LABS — 이미지 생성**
+    **[LABS — 이미지 생성](user/getting-started/labs.md)**
 
--   ![](assets/images/home/img08.png)
+-   [![](assets/images/home/img08.png)](user/getting-started/labs.md)
 
-    **LABS — 영상 생성**
+    **[LABS — 영상 생성](user/getting-started/labs.md)**
 
--   ![](assets/images/home/img03.png)
+-   [![](assets/images/home/img03.png)](user/getting-started/labs.md)
 
-    **LABS — 캔버스**
+    **[LABS — 캔버스](user/getting-started/labs.md)**
 
--   ![](assets/images/home/img06.png)
+-   [![](assets/images/home/img06.png)](user/getting-started/labs.md)
 
-    **LABS — AI 슬라이드**
+    **[LABS — AI 슬라이드](user/getting-started/labs.md)**
 
--   ![](assets/images/home/img09.png)
+-   [![](assets/images/home/img09.png)](user/getting-started/services.md)
 
-    **추가 기능 알아보기**
+    **[추가 기능 알아보기](user/getting-started/services.md)**
 
 </div>
 
