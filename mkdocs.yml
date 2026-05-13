@@ -34,6 +34,7 @@ nav:
           - 계정 관리: user/reference/account.md
           - 템플릿 만들기: user/reference/templates-build.md
           - 타임리 AI 에이전트: user/reference/ai-agents.md
+  - FAQ: faq.md
   - 참고:
       - 할루시네이션 줄이기: hallucination.md
 
