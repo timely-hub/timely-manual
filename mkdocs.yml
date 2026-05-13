@@ -55,16 +55,17 @@ theme:
     - content.code.copy
     - content.action.edit
     - toc.follow
+  # Light is the default. OS preference is intentionally NOT auto-detected
+  # so the manual matches the Timely service (which is light-themed) out of the box.
+  # Users can still manually toggle to dark via the header icon.
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-night
         name: 다크 모드로 전환
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: custom
       accent: custom
       toggle:
