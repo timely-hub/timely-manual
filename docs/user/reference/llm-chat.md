@@ -25,11 +25,7 @@
 
 1. 질문하고 싶은 내용을 바로 입력해요
 
-!!! note "AI Chat 기능 더보기"
-
-    &nbsp;
-
-
+> 📌 **AI Chat 기능 더보기**
 ## RAG기능(파일 업로드)
 
 ![](../../assets/images/user-llm-chat/img03.png)
