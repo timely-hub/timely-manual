@@ -1,0 +1,79 @@
+site_name: 타임리GPT 사용설명서
+site_description: Timely AI 서비스 사용설명서
+site_url: https://timely-hub.github.io/timely-manual/
+repo_url: https://github.com/timely-hub/timely-manual
+repo_name: timely-hub/timely-manual
+edit_uri: edit/master/docs/
+
+# 변환 완료 후 nav: 트리는 Phase 3에서 채움.
+# 그 전까지는 mkdocs가 docs/ 구조에서 자동으로 nav를 생성.
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+  font:
+    text: Pretendard
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://www.timelygpt.co.kr/main
+      name: 타임리GPT 홈페이지
+
+copyright: © Timely. All rights reserved.
