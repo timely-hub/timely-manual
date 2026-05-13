@@ -204,3 +204,58 @@ body,
 .md-search__input {
   border-radius: 8px;
 }
+
+/* ---------------------------------------------------------------------------
+ * Sidebar — visually separate section headers from leaf links.
+ *
+ * mkdocs-material renders both kinds with class `.md-nav__link`, the only
+ * difference being the tag (<label> for parent sections, <a> for actual links).
+ * Without extra styling the hierarchy reads flat. We give the section labels
+ * a smaller-but-bolder uppercase-feel treatment and keep leaf links clean.
+ * ------------------------------------------------------------------------- */
+
+/* Section label (e.g. "시작하기", "기능 더보기") — parent of a nested list */
+.md-nav .md-nav__item--nested > label.md-nav__link,
+.md-nav .md-nav__item--section > label.md-nav__link {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--timely-gray-400);
+  text-transform: uppercase;       /* no-op for 한글; tightens English/숫자 if mixed */
+  margin-top: 1.1em;
+  opacity: 1;
+}
+
+/* The very first section label in a sidebar shouldn't have a top gap */
+.md-sidebar--primary .md-nav__list > .md-nav__item:first-child > label.md-nav__link {
+  margin-top: 0;
+}
+
+/* Top of sidebar — "어드민 가이드" / "유저 가이드" header
+ * (rendered as .md-nav__title when navigation.tabs surfaces the section) */
+.md-sidebar--primary .md-nav--primary > .md-nav__title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--timely-black);
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--timely-gray-100);
+  margin-bottom: 0.4rem;
+}
+
+/* Leaf links — clean weight, normal text color */
+.md-nav .md-nav__item:not(.md-nav__item--nested):not(.md-nav__item--section)
+  > a.md-nav__link {
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color);
+  padding-top: 0.32em;
+  padding-bottom: 0.32em;
+}
+
+/* Active leaf link — brand-tinted */
+.md-nav .md-nav__link--active {
+  color: var(--timely-primary-500) !important;
+  font-weight: 600 !important;
+}
