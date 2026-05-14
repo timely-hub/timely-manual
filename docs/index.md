@@ -36,41 +36,41 @@ hide:
 
 <div class="grid cards" markdown>
 
--   [![](assets/images/home/img01.png)](user/getting-started/overview.md)
+-   [![](assets/images/home/img01.png)](https://www.youtube.com/watch?v=OT7ff4rK8f0){target=_blank rel=noopener}
 
-    **[회원가입 안내](user/getting-started/overview.md)**
+    **[회원가입 안내](https://www.youtube.com/watch?v=OT7ff4rK8f0){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img04.png)](user/reference/llm-chat.md)
+-   [![](assets/images/home/img04.png)](https://www.youtube.com/watch?v=5Kf9U1uPhJQ){target=_blank rel=noopener}
 
-    **[AI 채팅 사용하기](user/reference/llm-chat.md)**
+    **[AI 채팅 사용하기](https://www.youtube.com/watch?v=5Kf9U1uPhJQ){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img07.png)](user/getting-started/templates.md)
+-   [![](assets/images/home/img07.png)](https://www.youtube.com/watch?v=bytxfB3ZaDU){target=_blank rel=noopener}
 
-    **[템플릿 사용하기](user/getting-started/templates.md)**
+    **[템플릿 사용하기](https://www.youtube.com/watch?v=bytxfB3ZaDU){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img02.png)](user/getting-started/labs.md)
+-   [![](assets/images/home/img02.png)](https://www.youtube.com/watch?v=I5ObINu9P5A){target=_blank rel=noopener}
 
-    **[이미지 생성 (F. 나노바나나)](user/getting-started/labs.md)**
+    **[이미지 생성 (F. 나노바나나)](https://www.youtube.com/watch?v=I5ObINu9P5A){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img05.png)](user/getting-started/labs.md)
+-   [![](assets/images/home/img05.png)](https://www.youtube.com/watch?v=72FPHSgJALA){target=_blank rel=noopener}
 
-    **[LABS — 이미지 생성](user/getting-started/labs.md)**
+    **[LABS — 이미지 생성](https://www.youtube.com/watch?v=72FPHSgJALA){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img08.png)](user/getting-started/labs.md)
+-   [![](assets/images/home/img08.png)](https://www.youtube.com/watch?v=16Pj-Ue27TU){target=_blank rel=noopener}
 
-    **[LABS — 영상 생성](user/getting-started/labs.md)**
+    **[LABS — 영상 생성](https://www.youtube.com/watch?v=16Pj-Ue27TU){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img03.png)](user/getting-started/labs.md)
+-   [![](assets/images/home/img03.png)](https://www.youtube.com/watch?v=pt6_xe7SbpQ){target=_blank rel=noopener}
 
-    **[LABS — 캔버스](user/getting-started/labs.md)**
+    **[LABS — 캔버스](https://www.youtube.com/watch?v=pt6_xe7SbpQ){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img06.png)](user/getting-started/labs.md)
+-   [![](assets/images/home/img06.png)](https://www.youtube.com/watch?v=m9KfK8evn-I){target=_blank rel=noopener}
 
-    **[LABS — AI 슬라이드](user/getting-started/labs.md)**
+    **[LABS — AI 슬라이드](https://www.youtube.com/watch?v=m9KfK8evn-I){target=_blank rel=noopener}**
 
--   [![](assets/images/home/img09.png)](user/getting-started/services.md)
+-   [![](assets/images/home/img09.png)](https://www.youtube.com/watch?v=_GNko3uBGJc){target=_blank rel=noopener}
 
-    **[추가 기능 알아보기](user/getting-started/services.md)**
+    **[추가 기능 알아보기](https://www.youtube.com/watch?v=_GNko3uBGJc){target=_blank rel=noopener}**
 
 </div>
 
