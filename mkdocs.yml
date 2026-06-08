@@ -1,4 +1,4 @@
-site_name: 타임리GPT 사용설명서
+site_name: 타임리AI 사용설명서
 site_description: Timely AI 서비스 사용설명서
 site_url: https://timely-hub.github.io/timely-manual/
 repo_url: https://github.com/timely-hub/timely-manual
@@ -106,6 +106,6 @@ extra:
   social:
     - icon: fontawesome/solid/house
       link: https://www.timelygpt.co.kr/main
-      name: 타임리GPT 홈페이지
+      name: 타임리AI 홈페이지
 
 copyright: © Timely. All rights reserved.
