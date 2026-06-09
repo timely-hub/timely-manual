@@ -90,6 +90,16 @@ body,
 .md-header__title {
   font-weight: 700;
   letter-spacing: -0.02em;
+  /* Tight gap between logo and site title — ~10px feels balanced.
+   * !important beats the framework's media-query overrides. */
+  margin-left: 10px !important;
+}
+
+/* Remove ALL spacing on the right side of the logo button so the title
+ * can sit right next to the mark. */
+.md-header__button.md-logo {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* Top tabs (어드민 가이드 / 유저 가이드 / FAQ ...) */

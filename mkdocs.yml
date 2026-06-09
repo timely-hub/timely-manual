@@ -45,7 +45,7 @@ nav:
 theme:
   name: material
   language: ko
-  logo: assets/img/favicon.svg
+  logo: assets/img/logo.svg
   favicon: assets/img/favicon.ico
   features:
     - navigation.tabs
