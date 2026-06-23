@@ -24,6 +24,7 @@ nav:
       - 시작하기:
           - 개요: user/getting-started/overview.md
           - 서비스 활용하기: user/getting-started/services.md
+          - 타임리 에이전트: user/getting-started/agents.md
           - 템플릿: user/getting-started/templates.md
           - Labs: user/getting-started/labs.md
           - 내 계정 설정: user/getting-started/my-account.md
