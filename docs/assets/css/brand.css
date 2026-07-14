@@ -155,6 +155,15 @@ body,
   border-left-width: 4px;
 }
 
+/* Slightly larger admonition/details titles — mkdocs-material's default
+ * (~0.64rem) reads too small in Korean text. Bump to 0.8rem for better
+ * legibility across all callouts and collapsible sections. */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .md-typeset .admonition.note,
 .md-typeset details.note {
   border-color: var(--timely-info-500);
