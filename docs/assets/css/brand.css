@@ -214,6 +214,15 @@ body,
   border-radius: 8px;
 }
 
+/* Center-align content images (images that stand alone in a paragraph).
+ * `p > img` targets images that are direct children of a paragraph, i.e.
+ * standalone content images from Markdown `![](...)`, not inline emoji/icons. */
+.md-typeset p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer: brand-colored link */
 .md-footer-meta__inner a {
   color: rgba(255, 255, 255, 0.9);
