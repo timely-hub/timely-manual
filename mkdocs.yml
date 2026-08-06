@@ -1,9 +1,6 @@
 site_name: 타임리AI 사용설명서
 site_description: Timely AI 서비스 사용설명서
 site_url: https://timely-hub.github.io/timely-manual/
-repo_url: https://github.com/timely-hub/timely-manual
-repo_name: timely-hub/timely-manual
-edit_uri: edit/master/docs/
 
 nav:
   - 홈: index.md
@@ -59,7 +56,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
     - toc.follow
   # Light only — matches the Timely service. No toggle, no OS-preference detection,
   # so the look stays consistent across visits / users / system settings.
@@ -71,8 +67,6 @@ theme:
   font:
     text: Pretendard
     code: JetBrains Mono
-  icon:
-    repo: fontawesome/brands/github
 
 extra_css:
   - assets/css/brand.css
