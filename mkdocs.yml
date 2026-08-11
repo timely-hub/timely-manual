@@ -32,6 +32,7 @@ nav:
           - 계정 관리: user/reference/account.md
           - 템플릿 만들기: user/reference/templates-build.md
           - 에이전트 빌더: user/reference/ai-agents.md
+  - AI 모델별 특징 안내: ai-models.md
   - 영상 튜토리얼: tutorials.md
   - FAQ: faq.md
   - 참고:
