@@ -287,3 +287,74 @@ body,
   color: var(--timely-primary-500) !important;
   font-weight: 600 !important;
 }
+
+/* ── PDF 저장 버튼 (모든 페이지 상단, overrides/main.html) ───────────── */
+.pdf-download {
+  float: right;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.6rem 0.9rem;
+}
+.md-button--pdf {
+  padding: 0.28em 0.72em;
+  font-size: 0.66rem;
+  border-color: var(--timely-gray-200);
+  color: var(--md-default-fg-color);
+}
+.md-button--pdf:focus,
+.md-button--pdf:hover {
+  background-color: var(--timely-primary-500);
+  border-color: var(--timely-primary-500);
+  color: #fff;
+}
+
+/* ── 인쇄(= PDF 저장) 가독성 서식 ─────────────────────────────── */
+@media print {
+  /* 버튼 등은 인쇄물에 안 나오게 */
+  .no-print { display: none !important; }
+
+  /* 페이지 여백 */
+  @page { margin: 1.6cm 1.4cm; }
+
+  /* 표: Material의 가로 스크롤 래퍼 때문에 인쇄 시 오른쪽이 잘리는 문제 방지 */
+  .md-typeset__scrollwrap,
+  .md-typeset__table { overflow: visible !important; display: block !important; }
+  .md-typeset table {
+    display: table !important;
+    width: 100% !important;
+    table-layout: fixed;
+    font-size: 0.72em;
+    line-height: 1.45;
+  }
+  .md-typeset table th,
+  .md-typeset table td {
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  /* 이미지(스크린샷): 너무 커지지 않게 + 페이지 경계에서 잘리지 않게 */
+  .md-typeset img {
+    max-width: 100% !important;
+    max-height: 14cm !important;
+    height: auto !important;
+    break-inside: avoid;
+  }
+
+  /* 표·콜아웃·코드·카드·토글 등은 페이지 경계에서 통째로 넘어가게 */
+  .md-typeset table,
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-typeset pre,
+  .md-typeset figure,
+  .md-typeset blockquote,
+  .md-typeset .grid.cards > * ,
+  .md-typeset tr { break-inside: avoid; }
+
+  /* 제목이 페이지 맨 아래에 홀로 떨어지지 않도록 */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3,
+  .md-typeset h4 { break-after: avoid; }
+}

@@ -43,6 +43,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: ko
   logo: assets/img/logo.svg
   favicon: assets/img/favicon.ico
@@ -71,6 +72,9 @@ theme:
 
 extra_css:
   - assets/css/brand.css
+
+extra_javascript:
+  - assets/js/print.js
 
 markdown_extensions:
   - admonition

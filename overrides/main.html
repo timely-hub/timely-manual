@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+<!--
+  모든 페이지 상단 우측에 [이 페이지 PDF로 저장] 버튼을 넣습니다.
+  버튼은 .no-print 라서 실제 인쇄물(PDF)에는 나오지 않습니다.
+-->
+
+{% block content %}
+  <div class="pdf-download no-print">
+    <button type="button" class="md-button md-button--pdf" onclick="window.print()">
+      이 페이지 PDF로 저장
+    </button>
+  </div>
+  {{ super() }}
+{% endblock %}
