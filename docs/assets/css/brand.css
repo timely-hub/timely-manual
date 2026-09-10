@@ -259,6 +259,14 @@ body,
   margin-top: 0;
 }
 
+/* A standalone top-level page that follows a section (e.g. 어드민 가이드 > 통계)
+ * should sit at the same rhythm as the section's leaf links. Material gives
+ * .md-nav__item--section a bottom margin; drop it so the following leaf isn't
+ * pushed down. Section separation above is still handled by the label margin-top. */
+.md-nav .md-nav__item--section {
+  margin-bottom: 0;
+}
+
 /* Top of sidebar — "어드민 가이드" / "유저 가이드" header
  * (rendered as .md-nav__title when navigation.tabs surfaces the section) */
 .md-sidebar--primary .md-nav--primary > .md-nav__title {

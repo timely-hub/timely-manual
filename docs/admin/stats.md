@@ -1,10 +1,6 @@
 # 통계
 
-![](../../assets/images/admin-stats/img01.png)
-
-## 통계
-
-![](../../assets/images/admin-stats/img02.png)
+![](../assets/images/admin-stats/img02.png)
 
 스페이스에 소속된 어드민&유저가 사용한 크레딧 관련 통계를 확인할 수 있어요.
 

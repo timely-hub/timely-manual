@@ -10,13 +10,7 @@ nav:
           - 유저 초대·관리: admin/getting-started/invite-users.md
           - 템플릿 관리: admin/getting-started/templates.md
           - 크레딧 결제: admin/getting-started/credits.md
-      - 기능 더보기:
-          - 회원가입·로그인: admin/reference/signup-login.md
-          - 유저 관리: admin/reference/user-management.md
-          - 템플릿 관리: admin/reference/template-management.md
-          - 스페이스 관리: admin/reference/space-management.md
-          - 크레딧 결제: admin/reference/credits.md
-          - 통계: admin/reference/stats.md
+      - 통계: admin/stats.md
   - 유저 가이드:
       - 시작하기:
           - 개요: user/getting-started/overview.md
