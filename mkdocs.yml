@@ -10,18 +10,22 @@ nav:
           - 유저 초대·관리: admin/getting-started/invite-users.md
           - 템플릿 관리: admin/getting-started/templates.md
           - 크레딧 결제: admin/getting-started/credits.md
-      - 권한: admin/permissions.md
       - 통계: admin/stats.md
   - 유저 가이드:
-      - 개요: user/getting-started/overview.md
-      - 타임리 AI:
-          - AI 채팅: user/getting-started/ai-chat.md
-          - 프로젝트: user/getting-started/project.md
-          - 템플릿/챗봇: user/getting-started/templates-chatbot.md
-          - 스토어: user/getting-started/store.md
+      - 시작하기:
+          - 개요: user/getting-started/overview.md
+          - 서비스 활용하기: user/getting-started/services.md
+          - 타임리 에이전트: user/getting-started/agents.md
+          - 템플릿: user/getting-started/templates.md
           - Labs: user/getting-started/labs.md
-      - 타임리 에이전트: user/getting-started/agents.md
-      - 계정 설정: user/getting-started/my-account.md
+          - 내 계정 설정: user/getting-started/my-account.md
+      - 기능 더보기:
+          - 워크스페이스: user/reference/workspaces.md
+          - 다양한 LLM 채팅: user/reference/llm-chat.md
+          - 권한: user/reference/permissions.md
+          - 계정 관리: user/reference/account.md
+          - 템플릿 만들기: user/reference/templates-build.md
+          - 에이전트 빌더: user/reference/ai-agents.md
   - AI 모델별 특징 안내: ai-models.md
   - 영상 튜토리얼: tutorials.md
   - FAQ: faq.md
@@ -39,6 +43,8 @@ theme:
   favicon: assets/img/favicon.ico
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.expand
     - navigation.top
     - navigation.footer
     - navigation.indexes
@@ -51,29 +57,9 @@ theme:
   # so the look stays consistent across visits / users / system settings.
   # (Reintroduce the slate palette if a dark mode is ever wanted.)
   palette:
-    # 1) 기본: 시스템(OS/브라우저) 설정 자동 따라가기
-    - media: "(prefers-color-scheme)"
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-auto
-        name: 시스템 설정을 따르는 중 — 클릭하면 라이트
-    # 2) 라이트 고정
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: 라이트 모드 — 클릭하면 다크
-    # 3) 다크 고정
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: 다크 모드 — 클릭하면 시스템 설정
+    scheme: default
+    primary: custom
+    accent: custom
   font:
     text: Pretendard
     code: JetBrains Mono
@@ -83,7 +69,6 @@ extra_css:
 
 extra_javascript:
   - assets/js/print.js
-  - assets/js/user-guide-nav.js
 
 markdown_extensions:
   - admonition
