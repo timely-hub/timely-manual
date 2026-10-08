@@ -296,6 +296,208 @@ body,
   font-weight: 600 !important;
 }
 
+/* User guide: equal first-level rows and a clear pause after the heading. */
+.md-sidebar--primary nav[aria-labelledby="__nav_3_label"] > .md-nav__title {
+  padding-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_3_label"] > .md-nav__list > .md-nav__item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_3_label"] > .md-nav__list > .md-nav__item > a.md-nav__link,
+.md-sidebar--primary nav[aria-labelledby="__nav_3_label"] > .md-nav__list > .md-nav__item > label.md-nav__link {
+  color: var(--md-default-fg-color);
+  display: flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin: 0 !important;
+  padding: 0.35rem 0.45rem !important;
+}
+
+/* The AI group has its own compact, indented rail. */
+.md-sidebar--primary nav[aria-labelledby="__nav_3_2_label"] {
+  border-left: 2px solid var(--timely-primary-100);
+  background: var(--timely-gray-50);
+  border-radius: 0 8px 8px 0;
+  margin: 0.12rem 0 0.3rem 0.72rem !important;
+  padding: 0.18rem 0.25rem 0.18rem 0.45rem;
+}
+/* Collapsed: drop the rail's own box so no empty gap is left under the label. */
+.md-sidebar--primary #__nav_3_2:not(:checked) ~ nav[aria-labelledby="__nav_3_2_label"] {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-left-width: 0;
+  background: transparent;
+}
+.md-sidebar--primary #__nav_3_2:not(:checked) ~ nav[aria-labelledby="__nav_3_2_label"] > .md-nav__list {
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_3_2_label"] > .md-nav__list > .md-nav__item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_3_2_label"] > .md-nav__list > .md-nav__item > a.md-nav__link {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  margin: 0 !important;
+  padding: 0.27rem 0.42rem !important;
+}
+
+/* Show that Timely AI can be expanded or collapsed. */
+.md-sidebar--primary label[for="__nav_3_2"] > .md-nav__icon {
+  display: none;
+}
+.md-sidebar--primary label[for="__nav_3_2"]::after {
+  content: "";
+  width: 0.38rem;
+  height: 0.38rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  margin-left: auto;
+  transform: rotate(45deg);
+}
+.md-sidebar--primary #__nav_3_2:not(:checked) + label.md-nav__link::after {
+  transform: rotate(-45deg);
+}
+/* The active page link is enough; hide its duplicate TOC toggle label. */
+.md-sidebar--primary #__toc ~ label.md-nav__link {
+  display: none !important;
+}
+
+/* User-guide right TOC: topics, subtopics, and details have distinct rhythm. */
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__title {
+  color: var(--timely-gray-500);
+  font-size: 0.66rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
+  border-bottom: 1px solid var(--timely-gray-100);
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__list {
+  padding: 0;
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item {
+  padding: 0;
+  margin: 0;
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item > a.md-nav__link {
+  margin: 0;
+  padding: 0.22rem 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--timely-gray-500);
+  border-radius: 4px;
+}
+/* Major topics: stronger text, with space between topic groups. */
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item {
+  margin-top: 0.5rem;
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item:first-child {
+  margin-top: 0;
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > a.md-nav__link {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--timely-black);
+  padding-top: 0.26rem;
+  padding-bottom: 0.26rem;
+}
+/* Subtopics: a tinted rail and indentation make the parent group visible. */
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav {
+  border-left: 2px solid var(--timely-primary-100);
+  margin: 0.12rem 0 0.2rem 0.3rem;
+  padding: 0.08rem 0 0.08rem 0.55rem;
+}
+/* Third-level details remain grouped under their immediate subtopic. */
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav {
+  border-left: 1px solid var(--timely-gray-100);
+  margin: 0.08rem 0 0.18rem 0.3rem;
+  padding-left: 0.45rem;
+}
+.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav a.md-nav__link {
+  font-size: 0.66rem;
+}
+.timely-user-guide .md-sidebar--secondary a.md-nav__link:hover,
+.timely-user-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
+.timely-user-guide .md-sidebar--secondary a.md-nav__link--active {
+  background: var(--timely-primary-50);
+}
+
+/* Overview body hierarchy is independent of the unnumbered right TOC. */
+.md-typeset .overview-guide {
+  counter-reset: overview-section overview-subsection;
+}
+.md-typeset .overview-guide > h2 {
+  counter-increment: overview-section;
+  counter-set: overview-subsection 0;
+  margin-top: 2.4rem;
+  padding: 0.65rem 0.8rem;
+  border-left: 3px solid var(--timely-primary-500);
+  border-bottom: 1px solid var(--timely-gray-100);
+  border-radius: 0 6px 6px 0;
+  background: var(--timely-gray-50);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.md-typeset .overview-guide > h2::before {
+  content: counter(overview-section) ". ";
+  color: var(--timely-primary-500);
+  font-weight: 700;
+}
+.md-typeset .overview-guide > h3 {
+  counter-increment: overview-subsection;
+  margin-top: 1.7rem;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--timely-gray-100);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.md-typeset .overview-guide > h3::before {
+  content: counter(overview-section) "-" counter(overview-subsection) ". ";
+  color: var(--timely-primary-500);
+  font-weight: 600;
+}
+.md-typeset .overview-guide > .overview-step {
+  margin-top: 1.3rem;
+  margin-bottom: 0.55rem;
+  padding: 0.35rem 0.6rem;
+  border-left: 2px solid var(--timely-primary-100);
+  font-size: 0.84rem;
+}
+
+/* Review-only image slots: explicit capture requests, never mock screenshots. */
+.md-typeset .guide-image-placeholder {
+  box-sizing: border-box;
+  min-height: 160px;
+  margin: 1.2rem 0 1.6rem;
+  padding: 1rem 1.15rem;
+  border: 2px dashed var(--timely-primary-100);
+  border-radius: 8px;
+  background: var(--timely-gray-50);
+  color: var(--timely-gray-500);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.55rem;
+}
+.md-typeset .guide-image-placeholder > p {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+.md-typeset .guide-image-placeholder > p:first-child {
+  color: var(--timely-primary-600);
+  font-size: 0.8rem;
+}
+
 /* ── PDF 저장 버튼 (모든 페이지 상단, overrides/main.html) ───────────── */
 .pdf-download {
   float: right;
@@ -365,4 +567,126 @@ body,
   .md-typeset h2,
   .md-typeset h3,
   .md-typeset h4 { break-after: avoid; }
+}
+
+/* ===========================================================================
+ * 흑백(모노톤) 테마 — 보라 포인트 대신 검정/흰색으로 깔맞춤.
+ * 라이트(기본) 모드 색상. 다크 모드는 아래 slate 블록 참조.
+ * ======================================================================== */
+:root {
+  --md-primary-fg-color: var(--timely-black);      /* 헤더 바 → 검정 */
+  --md-primary-fg-color--light: var(--timely-gray-500);
+  --md-primary-fg-color--dark: #000000;
+
+  --md-accent-fg-color: var(--timely-black);
+  --md-accent-fg-color--transparent: rgba(27, 29, 31, 0.1);
+
+  --md-typeset-a-color: var(--timely-black);        /* 링크 → 검정 */
+}
+
+/* 활성 내비 링크 → 검정 (보라 대신) */
+.md-nav .md-nav__link--active {
+  color: var(--timely-black) !important;
+}
+
+/* 본문 링크는 밑줄로 구분 (흑백이라 색 구분이 사라지므로) */
+.md-typeset a:not(.md-button) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+}
+
+/* PDF 저장 버튼 hover → 검정 */
+.md-button--pdf:focus,
+.md-button--pdf:hover {
+  background-color: var(--timely-black);
+  border-color: var(--timely-black);
+  color: #fff;
+}
+
+/* ===========================================================================
+ * 다크 모드 (slate) — 시스템이 다크일 때 자동 적용.
+ * 배경은 어둡게, 글씨/포인트는 밝게 (검정↔흰색 반전).
+ * ======================================================================== */
+[data-md-color-scheme="slate"] {
+  /* 중립(뉴트럴) 다크 배경 — Material 기본 파란끼 제거 */
+  --md-hue: 0;
+  --md-default-bg-color: #16181a;
+  --md-default-fg-color: #e8ebed;
+  --md-default-fg-color--light: #c9cdd2;
+  --md-default-fg-color--lighter: #8e959d;
+  --md-default-fg-color--lightest: #3a3d40;
+
+  --md-primary-fg-color: #121314;   /* 헤더 바 → 더 짙은 검정 */
+  --md-primary-bg-color: #ffffff;   /* 헤더 글씨 → 흰색 */
+
+  --md-accent-fg-color: #ffffff;
+  --md-accent-fg-color--transparent: rgba(255, 255, 255, 0.1);
+  --md-typeset-a-color: #ffffff;    /* 링크 → 흰색 */
+
+  --md-code-bg-color: #1f2123;
+  --md-code-fg-color: #e8ebed;
+
+  --md-typeset-kbd-color: #2a2d30;
+  --md-typeset-kbd-accent-color: #3a3d40;
+}
+
+/* 다크: 활성 내비 링크 → 흰색 */
+[data-md-color-scheme="slate"] .md-nav .md-nav__link--active {
+  color: #ffffff !important;
+}
+
+/* 다크: 섹션 구분선·헤더 밑줄을 은은하게 */
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav--primary > .md-nav__title {
+  border-bottom-color: #2a2d30;
+  color: #ffffff;
+}
+
+/* 다크: PDF 저장 버튼 — 밝은 테두리, hover 시 흰 배경/검정 글씨 */
+[data-md-color-scheme="slate"] .md-button--pdf {
+  border-color: #4d5053;
+  color: var(--md-default-fg-color);
+}
+[data-md-color-scheme="slate"] .md-button--pdf:focus,
+[data-md-color-scheme="slate"] .md-button--pdf:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #121314;
+}
+
+/* 다크: 이미지 자리 플레이스홀더(흑백 가이드 문서 외 용) 등 밝은 배경 톤 보정 */
+[data-md-color-scheme="slate"] .md-typeset table th {
+  color: #ffffff;
+}
+
+/* ===========================================================================
+ * 콜아웃(admonition)·토글(details) — 흑백 톤으로 통일.
+ * 타입별 포인트 컬러(파랑/초록 등)를 중립 회색으로. 색 있는 이모지는 유지되고,
+ * 텍스트형 기호(◆·⓵ 등)와 콜아웃 아이콘은 글자색/모드에 맞춰 자동 전환됨.
+ * ======================================================================== */
+.md-typeset .admonition,
+.md-typeset details {
+  border-color: var(--timely-gray-200) !important;
+}
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: var(--timely-gray-50) !important;
+}
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: var(--timely-gray-600) !important;   /* 아이콘 → 중립 짙은 회색 */
+}
+
+/* 다크: 콜아웃/토글도 중립 다크 톤 + 아이콘 밝게 */
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  border-color: #3a3d40 !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset summary {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset summary::before {
+  background-color: #c9cdd2 !important;
 }
