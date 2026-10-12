@@ -62,7 +62,7 @@
 
 SNS 계정을 이용하려면 **카카오 또는 구글**을 선택하고, 화면에서 요청하는 추가 정보를 입력해 가입을 진행해요. 이후에도 가입할 때 선택한 SNS 계정으로 로그인해 주세요.
 
-![카카오와 구글 로그인 선택 화면](../../assets/images/user-overview/img06.png)
+![Timely AI 로그인 화면 — 아래 빨간 표시가 SNS 계정 로그인(카카오·구글·애플) 영역](../../assets/images/user-overview/renewal-sns-login.png){ width="400" }
 
 카카오·구글 계정의 비밀번호는 타임리AI에서 변경할 수 없어요. 비밀번호를 잊었다면 해당 SNS 서비스에서 재설정해 주세요.
 
