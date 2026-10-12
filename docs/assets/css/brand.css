@@ -843,3 +843,26 @@ body,
 }
 .md-sidebar--primary #__nav_2_1:not(:checked) + label.md-nav__link::after { transform: rotate(-45deg); }
 [data-md-color-scheme="slate"] .md-sidebar--primary nav[aria-labelledby="__nav_2_1_label"] { border-left-color: #3a3d40; }
+
+/* ===========================================================================
+ * 헤더 테마(팔레트) 토글 왼쪽에 '테마' 라벨 표시.
+ * 라이트/다크 어느 쪽이든 헤더 바가 어두워서 글씨는 헤더 글자색(흰색 계열)으로.
+ * ======================================================================== */
+[data-md-component="palette"] {
+  display: flex;
+  align-items: center;
+}
+[data-md-component="palette"]::before {
+  content: "테마";
+  margin-right: 0.25rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--md-primary-bg-color);
+  opacity: 0.9;
+}
+/* 아주 좁은 화면(모바일)에서는 공간 절약 위해 숨김 */
+@media screen and (max-width: 29.9375em) {
+  [data-md-component="palette"]::before { display: none; }
+}
