@@ -369,7 +369,7 @@ body,
 }
 
 /* User-guide right TOC: topics, subtopics, and details have distinct rhythm. */
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__title {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__title {
   color: var(--timely-gray-500);
   font-size: 0.66rem;
   font-weight: 600;
@@ -377,14 +377,14 @@ body,
   margin-bottom: 0.2rem;
   border-bottom: 1px solid var(--timely-gray-100);
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__list {
+.timely-guide .md-sidebar--secondary .md-nav--secondary .md-nav__list {
   padding: 0;
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item {
+.timely-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item {
   padding: 0;
   margin: 0;
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item > a.md-nav__link {
+.timely-guide .md-sidebar--secondary .md-nav--secondary .md-nav__item > a.md-nav__link {
   margin: 0;
   padding: 0.22rem 0.3rem;
   font-size: 0.7rem;
@@ -394,13 +394,13 @@ body,
   border-radius: 4px;
 }
 /* Major topics: stronger text, with space between topic groups. */
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item {
   margin-top: 0.5rem;
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item:first-child {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item:first-child {
   margin-top: 0;
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > a.md-nav__link {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > a.md-nav__link {
   font-size: 0.76rem;
   font-weight: 700;
   color: var(--timely-black);
@@ -408,23 +408,23 @@ body,
   padding-bottom: 0.26rem;
 }
 /* Subtopics: a tinted rail and indentation make the parent group visible. */
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav {
   border-left: 2px solid var(--timely-primary-100);
   margin: 0.12rem 0 0.2rem 0.3rem;
   padding: 0.08rem 0 0.08rem 0.55rem;
 }
 /* Third-level details remain grouped under their immediate subtopic. */
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav {
   border-left: 1px solid var(--timely-gray-100);
   margin: 0.08rem 0 0.18rem 0.3rem;
   padding-left: 0.45rem;
 }
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav a.md-nav__link {
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav .md-nav a.md-nav__link {
   font-size: 0.66rem;
 }
-.timely-user-guide .md-sidebar--secondary a.md-nav__link:hover,
-.timely-user-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
-.timely-user-guide .md-sidebar--secondary a.md-nav__link--active {
+.timely-guide .md-sidebar--secondary a.md-nav__link:hover,
+.timely-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
+.timely-guide .md-sidebar--secondary a.md-nav__link--active {
   background: var(--timely-primary-50);
 }
 
@@ -701,7 +701,7 @@ body,
 }
 /* 레일/테두리 → 중립 회색 */
 .md-sidebar--primary nav[aria-labelledby="__nav_3_2_label"],
-.timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav,
+.timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav,
 .md-typeset .overview-guide > .overview-step {
   border-left-color: var(--timely-gray-200);
 }
@@ -716,9 +716,9 @@ body,
   color: var(--timely-black);
 }
 /* hover/active 배경 → 중립 회색 */
-.timely-user-guide .md-sidebar--secondary a.md-nav__link:hover,
-.timely-user-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
-.timely-user-guide .md-sidebar--secondary a.md-nav__link--active {
+.timely-guide .md-sidebar--secondary a.md-nav__link:hover,
+.timely-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
+.timely-guide .md-sidebar--secondary a.md-nav__link--active {
   background: var(--timely-gray-100);
 }
 
@@ -727,7 +727,7 @@ body,
   background: rgba(255, 255, 255, 0.04);
   border-left-color: #3a3d40;
 }
-[data-md-color-scheme="slate"] .timely-user-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav,
+[data-md-color-scheme="slate"] .timely-guide .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav,
 [data-md-color-scheme="slate"] .md-typeset .overview-guide > .overview-step,
 [data-md-color-scheme="slate"] .md-typeset .guide-image-placeholder {
   border-color: #3a3d40;
@@ -744,10 +744,25 @@ body,
 [data-md-color-scheme="slate"] .md-typeset .guide-image-placeholder {
   background: rgba(255, 255, 255, 0.03);
 }
-[data-md-color-scheme="slate"] .timely-user-guide .md-sidebar--secondary a.md-nav__link:hover,
-[data-md-color-scheme="slate"] .timely-user-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
-[data-md-color-scheme="slate"] .timely-user-guide .md-sidebar--secondary a.md-nav__link--active {
+[data-md-color-scheme="slate"] .timely-guide .md-sidebar--secondary a.md-nav__link:hover,
+[data-md-color-scheme="slate"] .timely-guide .md-sidebar--secondary a.md-nav__link:focus-visible,
+[data-md-color-scheme="slate"] .timely-guide .md-sidebar--secondary a.md-nav__link--active {
   background: rgba(255, 255, 255, 0.08);
+}
+
+/* 다크: 우측 목차 글씨색 — 제목/상위 토픽/하위 항목 모두 밝게 전환.
+ * (라이트 전용 토큰 --timely-black / --timely-gray-500 이 다크에서 안 보이던 문제 수정)
+ * data-md-color-scheme 와 .timely-guide 가 같은 <body> 요소라 후손 결합자가 안 먹어서
+ * !important 로 확실히 덮어씀. */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav--secondary > .md-nav__title {
+  color: var(--md-default-fg-color--light) !important;
+  border-bottom-color: #2a2d30 !important;
+}
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav--secondary .md-nav__item > a.md-nav__link {
+  color: var(--md-default-fg-color--light) !important;
+}
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > a.md-nav__link {
+  color: #ffffff !important;
 }
 
 /* 'AI' 그룹 토글: 박스(배경+둥근모서리) 제거 → 얇은 세로 가이드 라인 + 들여쓰기만.
@@ -766,3 +781,65 @@ body,
 /* 표 가운데 정렬 — <div class="table-center" markdown="1"> 로 감싼 표 */
 .md-typeset .table-center .md-typeset__scrollwrap { text-align: center; }
 .md-typeset .table-center .md-typeset__table { display: inline-block; }
+
+/* ===========================================================================
+ * 어드민 가이드 좌측 사이드바 — 유저 가이드(__nav_3)와 동일한 리듬 (__nav_2).
+ * 제목과 첫 섹션(시작하기)이 겹치던 문제도 해결.
+ * ======================================================================== */
+.md-sidebar--primary nav[aria-labelledby="__nav_2_label"] > .md-nav__title {
+  padding-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_2_label"] > .md-nav__list > .md-nav__item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_2_label"] > .md-nav__list > .md-nav__item > a.md-nav__link,
+.md-sidebar--primary nav[aria-labelledby="__nav_2_label"] > .md-nav__list > .md-nav__item > label.md-nav__link {
+  color: var(--md-default-fg-color);
+  display: flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  text-transform: none;
+  margin: 0 !important;
+  padding: 0.35rem 0.45rem !important;
+}
+/* 시작하기 하위 그룹(__nav_2_1): 얇은 가이드 라인 + 들여쓰기 */
+.md-sidebar--primary nav[aria-labelledby="__nav_2_1_label"] {
+  border-left: 1px solid var(--timely-gray-200);
+  margin: 0.05rem 0 0.25rem 0.55rem !important;
+  padding: 0.05rem 0 0.05rem 0.7rem;
+}
+.md-sidebar--primary #__nav_2_1:not(:checked) ~ nav[aria-labelledby="__nav_2_1_label"] {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-left-width: 0;
+}
+.md-sidebar--primary #__nav_2_1:not(:checked) ~ nav[aria-labelledby="__nav_2_1_label"] > .md-nav__list {
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_2_1_label"] > .md-nav__list > .md-nav__item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-sidebar--primary nav[aria-labelledby="__nav_2_1_label"] > .md-nav__list > .md-nav__item > a.md-nav__link {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  margin: 0 !important;
+  padding: 0.27rem 0.42rem !important;
+}
+/* 시작하기 그룹 펼침/접힘 화살표 */
+.md-sidebar--primary label[for="__nav_2_1"] > .md-nav__icon { display: none; }
+.md-sidebar--primary label[for="__nav_2_1"]::after {
+  content: "";
+  width: 0.38rem; height: 0.38rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  margin-left: auto;
+  transform: rotate(45deg);
+}
+.md-sidebar--primary #__nav_2_1:not(:checked) + label.md-nav__link::after { transform: rotate(-45deg); }
+[data-md-color-scheme="slate"] .md-sidebar--primary nav[aria-labelledby="__nav_2_1_label"] { border-left-color: #3a3d40; }
