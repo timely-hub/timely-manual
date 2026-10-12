@@ -46,10 +46,10 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tooltips   # title 속성을 보기 좋은 툴팁으로 (팔레트 토글·로고 등)
     - toc.follow
-  # Light only — matches the Timely service. No toggle, no OS-preference detection,
-  # so the look stays consistent across visits / users / system settings.
-  # (Reintroduce the slate palette if a dark mode is ever wanted.)
+  # 3단 팔레트 토글: 시스템 자동 → 라이트 고정 → 다크 고정 (헤더 아이콘 클릭으로 순환).
+  # 각 toggle.name 이 호버 툴팁(content.tooltips)으로 안내됨.
   palette:
     # 1) 기본: 시스템(OS/브라우저) 설정 자동 따라가기
     - media: "(prefers-color-scheme)"
@@ -84,6 +84,7 @@ extra_css:
 extra_javascript:
   - assets/js/print.js
   - assets/js/user-guide-nav.js
+  - assets/js/header-home.js
 
 markdown_extensions:
   - admonition
