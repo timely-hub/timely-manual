@@ -31,6 +31,10 @@ nav:
       - 직접 문의: contact.md
       - Privacy: privacy.md
 
+# 메뉴엔 안 보이고, 'AI 모델별 특징 안내' 하단 박스로만 들어가는 페이지
+not_in_nav: |
+  /ai-pricing.md
+
 theme:
   name: material
   custom_dir: overrides
