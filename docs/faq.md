@@ -23,18 +23,18 @@
     
 ??? question "LLM 모델별 사용 특징"
 
-    타임리 AI에서는 여러 AI사의 모델을 골라 쓸 수 있어요. 모델군별 특징을 한눈에 정리하면 이래요. *(2026.11 기준)*
+    타임리 AI에서는 여러 AI사의 모델을 골라 쓸 수 있어요. 모델군별 특징을 한눈에 정리하면 이래요. *(2026.11.11 기준)*
 
     | 모델군 | 대표 모델 | 이럴 때 추천 |
     | --- | --- | --- |
     | **Upstage** (Solar) | Solar Pro 4 · Solar Mini 4 | 한국어 문서·보고서·요약 등 국내 실무 |
     | **OpenAI** (GPT) | GPT 6 Astra · GPT 6.1 Sol · GPT 6.1 Terra · GPT 6 Luna · GPT 5.3 Codex | 문서·분석·추론·코딩 등 폭넓은 업무 |
-    | **Anthropic** (Claude) | Claude Fable 5.1 · Claude Opus 5.5 · Claude Sonnet 5.5 · Claude Haiku 5.5 | 보고서·기획서 등 장문 작성과 문서 분석 |
-    | **Google** (Gemini) | Gemini 4 Argon · Gemini 3.1 Pro · Gemini 3.8 Flash | 긴 문서·이미지 등 멀티모달 자료 분석 |
+    | **Anthropic** (Claude) | Claude Fable 5.2 · Claude Opus 5.5 · Claude Sonnet 5.5 · Claude Haiku 5.5 | 보고서·기획서 등 장문 작성과 문서 분석 |
+    | **Google** (Gemini) | Gemini 4 Argon · Gemini 4 Carbon · Gemini 3.1 Pro · Gemini 3.8 Flash | 긴 문서·이미지 등 멀티모달 자료 분석 |
     | **X AI** (Grok) | Grok 4.7 · Grok 4.20 Fast Reasoning · Grok Build | 빠른 응답, 추론, 개발 작업 |
     | **Mistral AI** | Mistral Large 4 · Mistral Small · Codestral | 효율적인 처리와 개발 업무 자동화 |
     | **Perplexity** (Sonar) | Sonar | 웹 검색 기반 최신 정보·출처 확인 (Labs 메뉴) |
-    | **기타** | Qwen3.8 Max · Llama 4 Maverick · Kimi K3 · Laguna S 2.1 | 다국어·장문·코딩 등 목적별 특화 작업 |
+    | **기타** | Qwen3.8 Max · Llama 4 Maverick · Kimi K3 | 다국어·장문·코딩 등 목적별 특화 작업 |
 
     > 💡 모델별 자세한 특징은 [AI 모델별 특징 안내](ai-models.md), 모델별 크레딧은 [모델별 요금 안내](ai-pricing.md)에서 확인할 수 있어요.
 
