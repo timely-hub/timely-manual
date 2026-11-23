@@ -1,6 +1,6 @@
 # 스페이스 설정
 
-<a class="notice-box" href="../../../assets/notices/admin-2026-11-25.html" target="_blank" rel="noopener">
+<a class="notice-box" href="../../notice/">
 <span class="notice-box__tag">공지</span>
 <span class="notice-box__text"><strong>11월 25일 어드민 설정 개편 공지사항</strong><span>통계 대시보드·사이드바 개편과 대표 챗봇 기능이 추가돼요.</span></span>
 <span class="notice-box__more">자세히 보기 →</span>

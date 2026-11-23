@@ -5,6 +5,7 @@ site_url: https://timely-hub.github.io/timely-manual/
 nav:
   - 홈: index.md
   - 어드민 가이드:
+      - 어드민 공지사항: admin/notice.md
       - 시작하기:
           - 스페이스 설정: admin/getting-started/space-setup.md
           - 유저 초대·관리: admin/getting-started/invite-users.md

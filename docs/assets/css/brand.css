@@ -1024,3 +1024,88 @@ body,
   .notice-box__text { flex-basis: 100%; order: 2; }
   .notice-box__more { order: 3; }
 }
+
+
+/* ---------- 어드민 공지사항 페이지 (admin/notice.md) ---------- */
+/* 공지 본문은 인라인 스타일이 var(--c-*) 색을 참조 → 라이트/다크 값을 여기서 공급 */
+.admin-notice,
+.admin-notice .ta-menu-card {
+  --c-1b1d1f:#1b1d1f;
+  --c-1e1e1e:#1e1e1e;
+  --c-303030:#303030;
+  --c-353535:#353535;
+  --c-363636:#363636;
+  --c-4c4c4c:#4c4c4c;
+  --c-555555:#555555;
+  --c-cfcfcf:#cfcfcf;
+  --c-d2d2d2:#d2d2d2;
+  --c-dedede:#dedede;
+  --c-e0e0e0:#e0e0e0;
+  --c-e1e1e1:#e1e1e1;
+  --c-e6e6e6:#e6e6e6;
+  --c-e7e7e7:#e7e7e7;
+  --c-ececec:#ececec;
+  --c-f0f0f0:#f0f0f0;
+  --c-f6f6f6:#f6f6f6;
+  --c-f7f7f7:#f7f7f7;
+  --c-f8f8f8:#f8f8f8;
+  --c-fafafa:#fafafa;
+  --c-ffffff:#ffffff;
+}
+[data-md-color-scheme="slate"] .admin-notice {
+  --c-1b1d1f:#ffffff;
+  --c-1e1e1e:#ffffff;
+  --c-303030:#e8ebed;
+  --c-353535:#e8ebed;
+  --c-363636:#e8ebed;
+  --c-4c4c4c:#c9cdd2;
+  --c-555555:#c9cdd2;
+  --c-cfcfcf:#4d5053;
+  --c-d2d2d2:#4d5053;
+  --c-dedede:#3a3d40;
+  --c-e0e0e0:#3a3d40;
+  --c-e1e1e1:#3a3d40;
+  --c-e6e6e6:#3a3d40;
+  --c-e7e7e7:#3a3d40;
+  --c-ececec:#3a3d40;
+  --c-f0f0f0:#26282b;
+  --c-f6f6f6:#1f2123;
+  --c-f7f7f7:#1f2123;
+  --c-f8f8f8:#1f2123;
+  --c-fafafa:#1f2123;
+  --c-ffffff:#16181a;
+}
+/* 사이드바 메뉴 캡처는 투명 배경 + 어두운 글씨라 다크에서도 카드만 밝게 유지 */
+[data-md-color-scheme="slate"] .admin-notice .ta-menu-card {
+  --c-1b1d1f:#1b1d1f;
+  --c-1e1e1e:#1e1e1e;
+  --c-303030:#303030;
+  --c-353535:#353535;
+  --c-363636:#363636;
+  --c-4c4c4c:#4c4c4c;
+  --c-555555:#555555;
+  --c-cfcfcf:#cfcfcf;
+  --c-d2d2d2:#d2d2d2;
+  --c-dedede:#dedede;
+  --c-e0e0e0:#e0e0e0;
+  --c-e1e1e1:#e1e1e1;
+  --c-e6e6e6:#e6e6e6;
+  --c-e7e7e7:#e7e7e7;
+  --c-ececec:#ececec;
+  --c-f0f0f0:#f0f0f0;
+  --c-f6f6f6:#f6f6f6;
+  --c-f7f7f7:#f7f7f7;
+  --c-f8f8f8:#f8f8f8;
+  --c-fafafa:#fafafa;
+  --c-ffffff:#ffffff;
+}
+/* Material 기본 figure/figcaption 서식이 공지 레이아웃을 깨지 않게 */
+.md-typeset .admin-notice figure { display: block; }
+.md-typeset .admin-notice figcaption { max-width: none; font-style: normal; }
+.md-typeset .admin-notice h2,
+.md-typeset .admin-notice h3 { font-family: inherit; }
+.md-typeset .admin-notice img { border: 0; }
+@media (max-width: 459px) {
+  .admin-notice .ta-menu-comparison { grid-template-columns: minmax(0, 1fr) !important; gap: 10px !important; }
+  .admin-notice .ta-menu-direction { transform: rotate(90deg); }
+}
