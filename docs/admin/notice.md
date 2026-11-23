@@ -13,6 +13,11 @@
 </header>
 <section style="margin-top:34px;padding-top:26px;border-top:1px solid var(--c-e7e7e7);">
 <h3 style="margin:0 0 14px;color:var(--c-1e1e1e);font-size:clamp(21px,3vw,26px);line-height:1.45;letter-spacing:-.035em;">1. 통계 대시보드에서 스페이스 사용량을 살펴보세요</h3>
+<div style="box-sizing:border-box;max-width:900px;margin:0 0 18px;padding:16px 20px;border-left:3px solid var(--c-1b1d1f);border-radius:0 9px 9px 0;background:var(--c-f6f6f6);">
+<p style="margin:0;color:var(--c-303030);"><strong>가장 크게 달라진 점</strong><br>
+이제 기간·유저·모델·그룹 등 <strong>원하는 기준으로 필요한 데이터 값을 직접 골라 상세하게 뽑아볼 수 있습니다.</strong><br>
+정해진 화면만 보던 기존 방식과 달리, 운영에 필요한 수치를 바로 확인하고 엑셀로 받아 활용해 보세요.</p>
+</div>
 <p style="max-width:760px;margin:0 0 12px;"><strong>‘전체’ 탭</strong>에서 남은 크레딧을 확인하고 조회할 기간을 선택해 보세요.<br>
 선택한 기간의 사용 크레딧, 활성 유저 수, 대화 수가 한눈에 보입니다.</p>
 <p style="max-width:760px;margin:0 0 12px;"><strong>기간별 변화</strong>는 ‘이전 기간과 비교’를 켜면 그래프로 볼 수 있습니다.<br>
@@ -28,10 +33,15 @@
 <section style="margin-top:34px;padding-top:26px;border-top:1px solid var(--c-e7e7e7);">
 <h3 style="margin:0 0 14px;color:var(--c-1e1e1e);font-size:clamp(21px,3vw,26px);line-height:1.45;letter-spacing:-.035em;">2. 관리자 사이드바를 업무별로 정리합니다</h3>
 <p style="max-width:760px;margin:0 0 12px;">필요한 메뉴를 빠르게 찾으실 수 있도록 메뉴 이름을 다듬고 관련 기능을 묶습니다.<br>
-<strong>‘스페이스 관리’</strong>를 펼치면 두 가지 메뉴가 보입니다.</p>
-<p style="max-width:760px;margin:0 0 12px;"><strong>스페이스 설정</strong>에서 디자인과 사용할 모델을 변경할 수 있습니다.<br>
-<strong>스페이스 보안</strong>에서 접속·채팅 보안과 데이터 관리 정책을 설정할 수 있습니다.</p>
-<p style="max-width:760px;margin:0 0 12px;">감사 로그와 대화 이력은 사이드바의 <strong>‘운영 로그’</strong>에서 확인해 주세요.</p>
+개편 후 사이드바는 아래와 같이 업무별로 나뉩니다.</p>
+<ul style="max-width:760px;margin:0 0 12px;padding-left:1.2em;">
+<li style="margin:0 0 6px;"><strong>현황 보기</strong> · 맨 위의 <strong>통계 대시보드</strong>에서 사용 현황을 먼저 확인합니다.</li>
+<li style="margin:0 0 6px;"><strong>유저·스페이스</strong> · <strong>유저 관리</strong>와 <strong>스페이스 관리</strong>를 함께 둡니다.<br>
+‘스페이스 관리’를 펼치면 <strong>스페이스 설정</strong>(디자인·사용할 모델 변경)과 <strong>스페이스 보안</strong>(접속·채팅 보안, 데이터 관리 정책)이 보입니다.</li>
+<li style="margin:0 0 6px;"><strong>크레딧</strong> · <strong>크레딧 현황</strong>을 따로 두어 바로 찾을 수 있습니다.</li>
+<li style="margin:0 0 6px;"><strong>AI 기능</strong> · <strong>템플릿 관리</strong>와 <strong>챗봇 관리</strong>를 함께 둡니다.</li>
+<li style="margin:0 0 6px;"><strong>연동·기록</strong> · <strong>API KEY 관리</strong>와 <strong>운영 로그</strong>를 맨 아래에 둡니다. 감사 로그는 ‘운영 로그’에서 확인해 주세요.</li>
+</ul>
 <figure aria-label="관리자 사이드바 개편 전후 비교" style="box-sizing:border-box;width:100%;max-width:568px;margin:20px auto 0;padding:clamp(12px,2vw,20px);border-radius:12px;background:var(--c-f7f7f7);">
 <div class="ta-menu-comparison" style="display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);gap:8px;justify-items:center;align-items:center;">
 <div class="ta-menu-card" style="box-sizing:border-box;min-width:0;width:100%;max-width:238px;align-self:stretch;background:var(--c-ffffff);border:1px solid var(--c-e0e0e0);border-radius:10px;padding:14px 16px;">
