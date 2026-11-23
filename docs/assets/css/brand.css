@@ -970,3 +970,46 @@ body,
   .md-typeset .price-event__title { font-size: 1.3rem; }
   .md-typeset .price-event__body { padding: 0.8rem 1.1rem 1.1rem; background: #f7efe5; }
 }
+
+/* ---------- 공지 박스 (어드민 가이드 상단) ---------- */
+.md-typeset a.notice-box {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 0 0 1.6rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--timely-primary-100);
+  border-left: 4px solid var(--timely-primary-500);
+  border-radius: 0.6rem;
+  background: var(--timely-primary-50);
+  color: var(--timely-black);
+  text-decoration: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.md-typeset a.notice-box:hover {
+  border-color: var(--timely-primary-300);
+  box-shadow: 0 2px 10px rgba(94, 10, 255, 0.12);
+}
+.notice-box__tag {
+  flex: none;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--timely-primary-500);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+.notice-box__text { flex: 1; display: flex; flex-direction: column; line-height: 1.5; }
+.notice-box__text strong { font-size: 0.85rem; }
+.notice-box__text span { font-size: 0.72rem; color: var(--timely-gray-500); }
+.notice-box__more {
+  flex: none;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--timely-primary-500);
+}
+@media screen and (max-width: 44.9375em) {
+  .md-typeset a.notice-box { flex-wrap: wrap; gap: 0.5rem 0.7rem; }
+  .notice-box__text { flex-basis: 100%; order: 2; }
+  .notice-box__more { order: 3; }
+}

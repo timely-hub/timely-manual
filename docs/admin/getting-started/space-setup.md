@@ -1,5 +1,11 @@
 # 스페이스 설정
 
+<a class="notice-box" href="../../../assets/notices/admin-2026-11-25.html" target="_blank" rel="noopener">
+<span class="notice-box__tag">공지</span>
+<span class="notice-box__text"><strong>11월 25일 어드민 설정 개편 공지사항</strong><span>통계 대시보드·사이드바 개편과 대표 챗봇 기능이 추가돼요.</span></span>
+<span class="notice-box__more">자세히 보기 →</span>
+</a>
+
 어드민으로 로그인한 뒤 **[어드민 설정] > [스페이스 관리]**에서 우리 기관에 맞게 스페이스를 꾸밀 수 있어요. 크게 **① 스페이스 설정 · ② 스페이스 모델 설정 · ③ 금칙어 설정** 세 가지예요.
 
 왼쪽 아래 **프로필(이름)**을 누르면 뜨는 메뉴에서 **[어드민 설정]**(빨간 표시)으로 들어가요.
