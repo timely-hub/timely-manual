@@ -67,5 +67,6 @@
 </figure>
 </div>
 </section>
-<footer style="margin-top:30px;padding-top:20px;border-top:1px solid var(--c-e7e7e7);">감사합니다.<br>주식회사 타임리 드림</footer>
+<p style="margin:28px 0 0;color:var(--c-555555);font-size:13px;line-height:1.6;">※ 안내된 화면과 일정은 개발 상황에 따라 실제 반영 시 달라질 수 있습니다.</p>
+<footer style="margin-top:20px;padding-top:20px;border-top:1px solid var(--c-e7e7e7);">감사합니다.<br>주식회사 타임리 드림</footer>
 </article>
