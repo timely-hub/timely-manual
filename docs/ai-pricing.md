@@ -27,12 +27,12 @@
 </div>
 </div>
 
-> 📌 **2026년 11월 11일 기준** 일반 유료 이용 단가예요. 단가와 제공 모델은 바뀔 수 있어요.
+> 📌 **2026년 11월 20일 기준** 일반 유료 이용 단가예요. 단가와 제공 모델은 바뀔 수 있어요.
 
 !!! info "이용 전 확인해 주세요"
 
     - 무료 이용 혜택과 개별 계약·프로모션은 해당 조건을 따라요. 이 표는 무료 혜택 적용 전 일반 단가예요.
-    - 긴 문맥, 캐시, 검색·도구 호출, 파일 처리, 이미지 입력 등은 기본 텍스트 단가와 별도로 과금돼요.
+    - 긴 문맥, 캐시, 검색·도구 호출, 파일 처리, 이미지 입력·편집 등은 기본 텍스트 단가와 별도로 과금돼요.
     - 질문 길이, 대화 이력, 재생성, 에이전트 단계 수에 따라 실제 사용량은 달라져요.
     - 계약에 별도 조건이 있는 경우 해당 조건을 적용해요.
 
@@ -48,6 +48,8 @@
 
     | 모델 | 입력 | 출력 |
     | --- | ---: | ---: |
+    | GPT-6.2 Astra | 7.2 | 36 |
+    | GPT-6.2 Sol | 1.8 | 9 |
     | GPT-6.1 Sol | 1.8 | 9 |
     | GPT-6.1 Terra | 0.9 | 4.5 |
     | GPT-6 Sol | 1.8 | 9 |
@@ -105,12 +107,14 @@
     | Gemini 3 Flash | 0.45 | 2.7 |
     | Gemini 4 Argon | 1.8 | 9 |
     | Gemini 4 Carbon | 1.8 | 9 |
+    | Gemini 4 Neon | 2.7 | 13.5 |
+    | Gemini 4 Hydrogen | 1.35 | 6.75 |
 
 === "Solar"
 
     | 모델 | 입력 | 출력 |
     | --- | ---: | ---: |
-    | Solar Mini 4 | 0.09 | 0.36 |
+    | Solar Mini 4 | 0.045 | 0.18 |
     | Solar Pro 4 | 0.135 | 0.54 |
 
 === "Grok"
@@ -123,7 +127,6 @@
     | Grok 4.20 Fast Reasoning | 1.125 | 2.25 |
     | Grok 4.20 Non Reasoning | 1.125 | 2.25 |
     | Grok 4.3 | 1.125 | 2.25 |
-    | Grok Build | 0.9 | 1.8 |
 
 === "그 외"
 
@@ -138,8 +141,9 @@
     | Mistral Large 4 | 0.63 | 1.89 |
     | Qwen3.8 Max | 1.8 | 5.4 |
     | Kimi K3 | 2.7 | 13.5 |
+    | Kimi K3.1 Pro | 1.8 | 9 |
+    | Kimi K3.1 Pro Highspeed | 3.6 | 18 |
     | Llama 4 Maverick | 0.315 | 0.9 |
-    | Laguna S 2.1 | 0.085455 | 0.17091 |
 
 > Auto는 선택된 모델과 실제 사용량에 따라 크레딧이 달라져요. Perplexity Sonar는 텍스트 토큰 단가이며, 검색 비용이 생기면 별도로 더해져요.
 
@@ -156,15 +160,18 @@
     | Flux 1 Kontext Pro | 36 |
     | Flux Pro 1.1 | 36 |
     | Flux Pro 1.1 Ultra | 54 |
-    | Grok Imagine Image Pro | 45 |
     | Grok Imagine Image | 18 |
     | Grok Imagine Image 2.0 | 54 |
     | Recraft V4.1 Vector | 72 |
     | Seedream 4.5 | 36 |
     | Seedream 5.0 Flash | 16.2 |
     | Seedream 5.0 Lite | 31.5 |
+    | Seedream 5.5 | 18 |
     | Qwen Image 3 | 27 |
+    | Qwen Image 2.1 Pro | 41.4 |
+    | Qwen Image 2.1 Turbo | 16.56 |
     | Recraft V4.1 Flash | 6.3 |
+    | Recraft V4.1 Flash V2 | 6.3 |
     | Runway Gen4 Image | 45 |
     | Runway Gen4 Image Turbo | 18 |
 
@@ -225,10 +232,12 @@
 | Kling v3.0 Pro | 기본 | 151.2 |
 | Hailuo 2.3 | 기본 | 73.53 |
 | Seedance 2.5 | 720p | 208.008 |
+| Seedance 2.5 | 1080p | 511.758 |
+| Seedance 2.5 Flash | 720p | 136.08 |
 | Seedance 2.0 | 720p | 136.08 |
 | Seedance 2.0 | 1080p | 336.798 |
 | Seedance 2.0 | 4K | 699.84 |
-| Seedance 2.0 Fast | 720p | 81.648 |
+| Seedance 2.0 Fast | 720p | 108.864 |
 | Seedance 2.0 Mini | 720p | 68.04 |
 | Veo 3.1 Lite | 기본 | 72 |
 | Veo 3.1 Lite | 720p | 45 |
