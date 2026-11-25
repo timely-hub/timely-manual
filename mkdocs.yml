@@ -19,8 +19,15 @@ nav:
           - 스페이스 설정: admin/space/settings.md
           - 스페이스 보안: admin/space/security.md
       - 크레딧 현황: admin/credits.md
-      - 템플릿 관리: admin/templates.md
-      - 챗봇 관리: admin/chatbots.md
+      - 템플릿 관리:
+          - 추천 템플릿 관리: admin/templates/recommend.md
+          - 템플릿 그룹 관리: admin/templates/groups.md
+      - 챗봇 관리:
+          - 대표 챗봇: admin/chatbots/main.md
+          - 추천 챗봇 관리: admin/chatbots/recommend.md
+          - 챗봇 그룹 관리: admin/chatbots/groups.md
+          - 챗봇 승인: admin/chatbots/approval.md
+          - 챗봇 기본 틀: admin/chatbots/base.md
       - API KEY 관리: admin/api-keys.md
       - 운영 로그: admin/logs.md
   - 유저 가이드:

@@ -64,7 +64,9 @@ timely-manual/
 │   │   ├── notice.md                # 어드민 공지사항
 │   │   ├── users/                   # 유저 관리 — settings · groups (유저 정보) / invite-codes · invite-history · signup (초대·가입 관리)
 │   │   ├── space/                   # 스페이스 관리 — settings (스페이스 설정) · security (스페이스 보안)
-│   │   └── stats · credits · templates · chatbots · api-keys · logs (.md)
+│   │   ├── templates/               # 템플릿 관리 — recommend (추천 템플릿 관리) · groups (템플릿 그룹 관리)
+│   │   ├── chatbots/                # 챗봇 관리 — main (대표 챗봇) · recommend · groups · approval · base
+│   │   └── stats · credits · api-keys · logs (.md)
 │   ├── user/                        # 유저 트랙
 │   │   ├── getting-started/
 │   │   └── reference/
