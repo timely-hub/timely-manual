@@ -7,7 +7,14 @@ nav:
   - 어드민 가이드:
       - 어드민 공지사항: admin/notice.md
       - 통계 대시보드: admin/stats.md
-      - 유저 관리: admin/users.md
+      - 유저 관리:
+          - 유저 정보:
+              - 유저 설정: admin/users/settings.md
+              - 유저 그룹 관리: admin/users/groups.md
+          - 초대·가입 관리:
+              - 초대 코드 관리: admin/users/invite-codes.md
+              - 이메일 초대 내역: admin/users/invite-history.md
+              - 가입 제한 설정: admin/users/signup.md
       - 스페이스 관리: admin/space.md
       - 크레딧 현황: admin/credits.md
       - 템플릿 관리: admin/templates.md

@@ -64,7 +64,7 @@ class PageEntry:
 PAGES: dict[str, tuple[str, str]] = {
     # admin getting-started
     "시작하기 스페이스 설정":     ("admin/space.md",  "admin-space-setup"),
-    "유저 초대 관리":             ("admin/users.md", "admin-invite-users"),
+    "유저 초대 관리":             ("admin/users/settings.md", "admin-invite-users"),
     "템플릿 관리":                ("admin/templates.md",    "admin-templates"),
     "크레딧 결제":                ("admin/credits.md",      "admin-credits"),
 

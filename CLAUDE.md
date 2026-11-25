@@ -62,7 +62,8 @@ timely-manual/
 │   ├── index.md                     # 홈 (랜딩 — 어드민/유저 CTA + 입문 가이드 카드)
 │   ├── admin/                       # 어드민 트랙 — 어드민 설정 사이드바 순서와 동일
 │   │   ├── notice.md                # 어드민 공지사항
-│   │   └── stats · users · space · credits · templates · chatbots · api-keys · logs (.md)
+│   │   ├── users/                   # 유저 관리 — settings · groups (유저 정보) / invite-codes · invite-history · signup (초대·가입 관리)
+│   │   └── stats · space · credits · templates · chatbots · api-keys · logs (.md)
 │   ├── user/                        # 유저 트랙
 │   │   ├── getting-started/
 │   │   └── reference/
