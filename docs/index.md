@@ -14,9 +14,9 @@ hide:
 
     ---
 
-    스페이스 설정, 유저 초대·관리, 템플릿·크레딧 운영까지.
+    통계 확인부터 유저·스페이스·크레딧·템플릿·챗봇 관리까지.
 
-    [:octicons-arrow-right-24: 어드민으로 시작하기](admin/getting-started/space-setup.md)
+    [:octicons-arrow-right-24: 어드민으로 시작하기](admin/stats.md)
 
 -   :material-account-outline:{ .lg .middle } &nbsp; __유저 가이드__
 

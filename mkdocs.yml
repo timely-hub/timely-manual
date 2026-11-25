@@ -6,13 +6,14 @@ nav:
   - 홈: index.md
   - 어드민 가이드:
       - 어드민 공지사항: admin/notice.md
-      - 시작하기:
-          - 스페이스 설정: admin/getting-started/space-setup.md
-          - 유저 초대·관리: admin/getting-started/invite-users.md
-          - 템플릿 관리: admin/getting-started/templates.md
-          - 크레딧 결제: admin/getting-started/credits.md
-      - 권한: admin/permissions.md
-      - 통계: admin/stats.md
+      - 통계 대시보드: admin/stats.md
+      - 유저 관리: admin/users.md
+      - 스페이스 관리: admin/space.md
+      - 크레딧 현황: admin/credits.md
+      - 템플릿 관리: admin/templates.md
+      - 챗봇 관리: admin/chatbots.md
+      - API KEY 관리: admin/api-keys.md
+      - 운영 로그: admin/logs.md
   - 유저 가이드:
       - 개요: user/getting-started/overview.md
       - 타임리 AI:

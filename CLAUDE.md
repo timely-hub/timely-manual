@@ -60,9 +60,9 @@ Timely AI 서비스 **사용설명서** 사이트 (MkDocs Material 기반).
 timely-manual/
 ├── docs/                            # 콘텐츠 (편집 대상)
 │   ├── index.md                     # 홈 (랜딩 — 어드민/유저 CTA + 입문 가이드 카드)
-│   ├── admin/                       # 어드민 트랙
-│   │   ├── getting-started/         # 시작하기 (스페이스/유저/템플릿/크레딧)
-│   │   └── reference/               # 기능 더보기
+│   ├── admin/                       # 어드민 트랙 — 어드민 설정 사이드바 순서와 동일
+│   │   ├── notice.md                # 어드민 공지사항
+│   │   └── stats · users · space · credits · templates · chatbots · api-keys · logs (.md)
 │   ├── user/                        # 유저 트랙
 │   │   ├── getting-started/
 │   │   └── reference/

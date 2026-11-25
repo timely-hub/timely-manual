@@ -63,10 +63,10 @@ class PageEntry:
 # All source files live directly under SRC.
 PAGES: dict[str, tuple[str, str]] = {
     # admin getting-started
-    "시작하기 스페이스 설정":     ("admin/getting-started/space-setup.md",  "admin-space-setup"),
-    "유저 초대 관리":             ("admin/getting-started/invite-users.md", "admin-invite-users"),
-    "템플릿 관리":                ("admin/getting-started/templates.md",    "admin-templates"),
-    "크레딧 결제":                ("admin/getting-started/credits.md",      "admin-credits"),
+    "시작하기 스페이스 설정":     ("admin/space.md",  "admin-space-setup"),
+    "유저 초대 관리":             ("admin/users.md", "admin-invite-users"),
+    "템플릿 관리":                ("admin/templates.md",    "admin-templates"),
+    "크레딧 결제":                ("admin/credits.md",      "admin-credits"),
 
     # user getting-started
     "시작하기":                   ("user/getting-started/overview.md",      "user-overview"),
