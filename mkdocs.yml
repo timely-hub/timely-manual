@@ -15,7 +15,9 @@ nav:
               - 초대 코드 관리: admin/users/invite-codes.md
               - 이메일 초대 내역: admin/users/invite-history.md
               - 가입 제한 설정: admin/users/signup.md
-      - 스페이스 관리: admin/space.md
+      - 스페이스 관리:
+          - 스페이스 설정: admin/space/settings.md
+          - 스페이스 보안: admin/space/security.md
       - 크레딧 현황: admin/credits.md
       - 템플릿 관리: admin/templates.md
       - 챗봇 관리: admin/chatbots.md
