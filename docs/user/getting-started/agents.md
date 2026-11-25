@@ -1,3 +1,5 @@
+<div class="overview-guide" markdown="1">
+
 # 타임리 에이전트
 
 ## 에이전트 소개 {#_2}
@@ -128,3 +130,5 @@
 에이전트와 스킬의 기본 개념부터 실제 제작·활용 방법까지, 교육 영상을 통해 단계별로 확인해 보세요.
 
 [:material-play-circle-outline: 에이전트 제작 교육 영상 보기](https://www.youtube.com/live/iLcH1Yp0vTw?si=Ahho66yyRJh9z_Oz&t=773){ .md-button .md-button--primary target="_blank" rel="noopener" }
+
+</div>

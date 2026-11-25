@@ -22,7 +22,7 @@ hide:
 
     ---
 
-    AI 채팅, 템플릿, Labs 등 서비스 사용법 안내.
+    AI 채팅, 템플릿, 도구 등 서비스 사용법 안내.
 
     [:octicons-arrow-right-24: 유저로 시작하기](user/getting-started/overview.md)
 
@@ -54,19 +54,19 @@ hide:
 
 -   [![](assets/images/home/img05.png)](https://www.youtube.com/watch?v=72FPHSgJALA){target=_blank rel=noopener}
 
-    **[LABS — 이미지 생성](https://www.youtube.com/watch?v=72FPHSgJALA){target=_blank rel=noopener}**
+    **[도구 — 이미지 생성](https://www.youtube.com/watch?v=72FPHSgJALA){target=_blank rel=noopener}**
 
 -   [![](assets/images/home/img08.png)](https://www.youtube.com/watch?v=16Pj-Ue27TU){target=_blank rel=noopener}
 
-    **[LABS — 영상 생성](https://www.youtube.com/watch?v=16Pj-Ue27TU){target=_blank rel=noopener}**
+    **[도구 — 영상 생성](https://www.youtube.com/watch?v=16Pj-Ue27TU){target=_blank rel=noopener}**
 
 -   [![](assets/images/home/img03.png)](https://www.youtube.com/watch?v=pt6_xe7SbpQ){target=_blank rel=noopener}
 
-    **[LABS — 캔버스](https://www.youtube.com/watch?v=pt6_xe7SbpQ){target=_blank rel=noopener}**
+    **[캔버스](https://www.youtube.com/watch?v=pt6_xe7SbpQ){target=_blank rel=noopener}**
 
 -   [![](assets/images/home/img06.png)](https://www.youtube.com/watch?v=m9KfK8evn-I){target=_blank rel=noopener}
 
-    **[LABS — AI 슬라이드](https://www.youtube.com/watch?v=m9KfK8evn-I){target=_blank rel=noopener}**
+    **[도구 — AI 슬라이드](https://www.youtube.com/watch?v=m9KfK8evn-I){target=_blank rel=noopener}**
 
 -   [![](assets/images/home/img09.png)](https://www.youtube.com/watch?v=_GNko3uBGJc){target=_blank rel=noopener}
 

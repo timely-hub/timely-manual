@@ -28,6 +28,8 @@ function initializeGuideNav() {
       try {
         expanded = window.sessionStorage.getItem(stateKey) === "true";
       } catch (_) {}
+      // 지금 보고 있는 페이지가 이 그룹 안에 있으면 항상 펼침 (어드민 가이드와 동일)
+      if (timelyAi.parentElement.querySelector("nav a.md-nav__link--active")) expanded = true;
       timelyAi.checked = expanded;
       const syncTimelyAi = function () {
         const submenu = timelyAi.parentElement.querySelector(":scope > nav.md-nav");

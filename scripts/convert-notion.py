@@ -72,7 +72,7 @@ PAGES: dict[str, tuple[str, str]] = {
     "시작하기":                   ("user/getting-started/overview.md",      "user-overview"),
     "서비스 활용하기":            ("user/getting-started/services.md",      "user-services"),
     "템플릿 더 알아보기":         ("user/getting-started/templates.md",     "user-templates"),
-    "Labs 더 알아보기":           ("user/getting-started/labs.md",          "user-labs"),
+    "도구 더 알아보기":           ("user/getting-started/labs.md",          "user-labs"),
     "내 계정 설정하기":           ("user/getting-started/my-account.md",    "user-my-account"),
 
     # extras (linked from root)

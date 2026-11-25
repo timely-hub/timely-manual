@@ -1149,3 +1149,46 @@ body,
 :not(.table-center) > .md-typeset__scrollwrap > .md-typeset__table > table:not([class]) td:first-child {
   white-space: nowrap;
 }
+
+/* ========================================================================
+ * 유저 가이드 본문 제목 — 어드민 가이드와 같은 모양으로 통일.
+ * (회색 박스·왼쪽 막대·밑줄 제거, 번호는 그대로 자동으로 붙음)
+ * 오른쪽 목차에도 어드민처럼 번호를 붙임.
+ * ======================================================================== */
+.md-typeset .overview-guide > h2 {
+  margin: 1.6em 0 0.64em;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0;
+  background: none !important;
+  font-size: 1.5625em;
+  line-height: 1.4;
+}
+.md-typeset .overview-guide > h3 {
+  margin: 1.6em 0 0.8em;
+  padding: 0;
+  border: 0 !important;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+.md-typeset .overview-guide > h2::before,
+.md-typeset .overview-guide > h3::before {
+  color: inherit !important;
+  font-weight: inherit;
+}
+body:has(.overview-guide) .md-sidebar--secondary .md-nav--secondary > .md-nav__list {
+  counter-reset: toc-section;
+}
+body:has(.overview-guide) .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item {
+  counter-increment: toc-section;
+  counter-reset: toc-subsection;
+}
+body:has(.overview-guide) .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > a.md-nav__link .md-ellipsis::before {
+  content: counter(toc-section) ". ";
+}
+body:has(.overview-guide) .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item {
+  counter-increment: toc-subsection;
+}
+body:has(.overview-guide) .md-sidebar--secondary .md-nav--secondary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > a.md-nav__link .md-ellipsis::before {
+  content: counter(toc-section) "-" counter(toc-subsection) ". ";
+}

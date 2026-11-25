@@ -39,7 +39,7 @@ nav:
           - 프로젝트: user/getting-started/project.md
           - 템플릿/챗봇: user/getting-started/templates-chatbot.md
           - 스토어: user/getting-started/store.md
-          - Labs: user/getting-started/labs.md
+          - 도구: user/getting-started/labs.md
       - 타임리 에이전트: user/getting-started/agents.md
       - 계정 설정: user/getting-started/my-account.md
   - AI 모델별 특징 안내: ai-models.md

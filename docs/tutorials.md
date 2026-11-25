@@ -10,7 +10,7 @@
 
 ## 유저 튜토리얼
 
-회원가입부터 AI 채팅·템플릿·Labs까지 — 일반 사용자가 알면 좋은 핵심 기능 모음.
+회원가입부터 AI 채팅·템플릿·도구까지 — 일반 사용자가 알면 좋은 핵심 기능 모음.
 
 [:material-youtube: 유저 튜토리얼 보기](https://www.youtube.com/watch?v=No0fxWBbHUI){ .md-button .md-button--primary target="_blank" }
 

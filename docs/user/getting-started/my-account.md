@@ -1,3 +1,5 @@
+<div class="overview-guide" markdown="1">
+
 # 계정 설정하기
 
 ![](../../assets/images/user-my-account/img01.png)
@@ -89,3 +91,5 @@
     이전으로
 
     [템플릿 더 알아보기](https://www.notion.so/294f49d7e77e8138befcf17912b84fb5?pvs=21)
+
+</div>
