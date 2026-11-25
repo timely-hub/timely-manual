@@ -4,7 +4,7 @@
 
 ## 1. 워크스페이스 만들기
 
-타임리 GPT 홈페이지 접속
+타임리 AI 홈페이지 접속
 
 https://timelygpt.co.kr/main
 
