@@ -66,6 +66,7 @@ timely-manual/
 │   │   ├── space/                   # 스페이스 관리 — settings (스페이스 설정) · security (스페이스 보안)
 │   │   ├── templates/               # 템플릿 관리 — recommend (추천 템플릿 관리) · groups (템플릿 그룹 관리)
 │   │   ├── chatbots/                # 챗봇 관리 — main (대표 챗봇) · recommend · groups · approval · base
+│   │   ├── logs/                    # 운영 로그 — audit (감사 로그) · history (대화 이력 조회)
 │   │   └── stats · credits · api-keys · logs (.md)
 │   ├── user/                        # 유저 트랙
 │   │   ├── getting-started/

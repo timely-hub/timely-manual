@@ -29,7 +29,9 @@ nav:
           - 챗봇 승인: admin/chatbots/approval.md
           - 챗봇 기본 틀: admin/chatbots/base.md
       - API KEY 관리: admin/api-keys.md
-      - 운영 로그: admin/logs.md
+      - 운영 로그:
+          - 감사 로그: admin/logs/audit.md
+          - 대화 이력 조회: admin/logs/history.md
   - 유저 가이드:
       - 개요: user/getting-started/overview.md
       - 타임리 AI:
